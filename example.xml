@@ -1,0 +1,168 @@
+<courses>
+  <course>
+    <outline>
+    <school>
+      School of informatics
+    </school>
+    <course_type>
+      Standard
+    </course_type>
+    <credit_level>
+      SCQF Level 8 (Year 1 Undergraduate)
+    </credit_level>
+    <subj_area>
+      Informatics
+    </subj_area>
+    <website>
+      http://www.inf.ed.ac.uk/teaching/courses/inf1/cl/
+    </website>
+    <description>
+      The goal of this strand is to introduce the notions of computation and specification using finite-state systems and propositional logic. Finite state machines provide a simple model of computation that is widely used, has an interesting meta-theory and has immediate application in a range of situations. They are used as basic computational models across the whole of Informatics and at the same time are used successfully in many widely used applications and components. Propositional logic, similarly is the first step in understanding logic which is an essential element of the specification of Informatics systems and their properties.
+    </description>
+    <college>
+      College of Science and Engineering
+    </college>
+    <availability>
+      Available to all students
+    </availability>
+    <credits>
+      10
+    </credits>
+    <other_subj_area>
+      None
+    </other_subj_area>
+    <gaelic_taught>
+      No
+    </gaelic_taught>
+    </outline>
+    <entry_requirements>
+      <prerequisites>
+        <prerequisite>
+
+        </prerequisite>
+      </prerequisites>
+      <restrictions>
+
+      </restrictions>
+      <additional_costs>
+        None
+      </additional_costs>
+      <corequisites>
+        Students MUST also take: Informatics 1 - Functional Programming (INFR08013) 
+      </corequisites>
+      <other_requirements>
+        SCE H-grade Mathematics or equivalent is desirable.
+      </other_requirements>
+
+    </entry_requirements>
+    <vs_info>
+      <prerequisites>
+        <prerequisite>
+
+        </prerequisite>
+      </prerequisites>
+      <displayed>
+
+      </displayed>
+    </vs_info>
+    <delivery_info>
+      <delivery_period>
+
+      </delivery_period>
+      <learn_enabled>
+
+      </learn_enabled>
+      <quota>
+
+      </quota>
+      <activity type="Lecture">
+        <location></location>
+        <description></description>
+        <weeks></weeks>
+        <time>
+          <monday></monday>
+          <tuesday></tuesday>
+          <wednesday></wednesday>
+          <thursday></thursday>
+          <friday></friday>
+        </time>
+      </activity>
+      <first_class>Week 1, Thursday, 11:10 - 12:00, Zone: Central. LT 5 Appleton Tower</first_class>
+      <exam_info>
+        <exam>
+          <diet>Main Exam Diet S1 (December)</diet>
+          <paper_name></paper_name>
+          <duration>2:00</duration>
+        </exam>
+        <exam>
+          <diet>Resit Exam Diet (August)</diet>
+          <paper_name></paper_name>
+          <duration>2:00</duration>
+        </exam>
+      </exam_info>
+
+    </delivery_info>
+    <learning_outcomes>
+      1 - Design a small finite-state system to describe, control or realise some behaviour.
+      2 - Evaluate the quality of such designs using standard engineering approaches.
+      3 - Apply the algebra of finite automata to design systems and to solve simple problems on creating acceptors for particular languages.
+      4 - Describe simple problems using propositional logic.
+      5 - For a given formula in propositional logic, draw a truth table for that formula and hence deduce whether that formula is true or not.
+      6 - Apply a system of proof rules to prove simple propositional theorems.
+      7 - Describe the range of systems to which finite-state systems and propositional logic are applicable and be able to use the meta theory to demonstrate the limitations of these approaches in concrete situations.
+    </learning_outcomes>
+    <asessment>
+      Written Examination 100
+      Assessed Assignments  0
+      Oral Presentations  0
+
+      Assessment
+      Formative assessment will be used to provide feedback and guidance to students and will take the form of quizzes, exercise sheets, practical exercises and coursework assignments, covering areas from across the syllabus.
+    </asessment>
+    <special_arrangements>
+      None
+    </special_arrangements>
+    <addition_info>
+      <academic_description>
+        Not entered
+      </academic_description>
+      <syllabus>
+        Finite-state systems as a basic model of computation: deterministic and non-deterministic automata; transducers; acceptors; structured design of finite state machines. Propositional logic: truth tables; natural deduction; resolution; elementary temporal logic.
+
+        Relevant QAA Computing Curriculum Sections: computer based systems, theoretical computing
+      </syllabus>
+      <transferable_skills>
+        Not entered
+      </transferable_skills>
+      <reading_list>
+        To be confirmed
+      </reading_list>
+      <study_abroad>
+        Not entered
+      </study_abroad>
+      <study_pattern>
+        Lectures  20
+        Tutorials 10
+        Timetabled Laboratories 0
+        Non-timetabled assessed assignments 0
+        Private Study/Other 70
+        Total 100
+      </study_pattern>
+      <keywords>
+        Not entered
+      </keywords>
+    </addition_info>
+    <contacts>
+      <course_organiser>
+        Mr Paul Anderson
+        Tel: (0131 6)51 3241
+        Email: dcspaul@inf.ed.ac.uk
+      </course_organiser>
+      <course_secretary>
+        Ms Kirsten Belk
+        Tel: (0131 6)50 5194
+        Email: kbelk@exseed.ed.ac.uk
+      </course_secretary>
+    </contacts>
+  </course>
+</courses>
