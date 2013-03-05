@@ -1,0 +1,21 @@
+<table class="sitstablegrid">
+  <caption>Entry Requirements (not applicable to Visiting
+    Students)</caption>
+    <tr>
+      <td class="rowhead1" width="15%">Pre-requisites</td>
+      <td width="35%"></td>
+      <td class="rowhead1" width="15%">Co-requisites</td>
+      <td width="35%"></td>
+    </tr>
+    <tr>
+      <td class="rowhead1" width="15%">Prohibited Combinations</td>
+      <td width="35%"></td>
+      <td class="rowhead1" width="15%">Other requirements</td>
+      <td width="35%">None</td>
+    </tr>
+    <!-- show add costs for portal View Course, course catalogue and from OCE -->
+    <tr>
+      <td class="rowhead1" width="15%">Additional Costs</td>
+      <td width="85%" colspan="4">None</td>
+    </tr>
+  </table>

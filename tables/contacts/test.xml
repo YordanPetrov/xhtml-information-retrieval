@@ -1,0 +1,13 @@
+<table class="sitstablegrid">
+          <caption>Contacts</caption>
+          <tr>
+            <td class="rowhead1" width="15%">Course organiser</td>
+            <td width="35%">Mr Paul Anderson<br />
+              <b>Tel:</b> (0131 6)51 3241<br />
+              <b>Email:</b> dcspaul@inf.ed.ac.uk</td>
+              <td class="rowhead1" width="15%">Course secretary</td>
+              <td width="35%">Ms Kirsten Belk<br />
+                <b>Tel:</b> (0131 6)50 5194<br />
+                <b>Email:</b> kbelk@exseed.ed.ac.uk</td>
+              </tr>
+            </table>

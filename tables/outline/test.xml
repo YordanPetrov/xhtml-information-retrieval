@@ -1,0 +1,60 @@
+<table class="sitstablegrid">
+  <caption>Course Outline</caption>
+  <tr>
+    <td class="rowhead1" width="15%">School</td>
+    <td width="35%">School of Informatics</td>
+    <td class="rowhead1" width="15%">College</td>
+    <td width="35%">College of Science and Engineering</td>
+  </tr>
+  <tr>
+    <td class="rowhead1" width="15%">Course type</td>
+    <td width="35%">Standard</td>
+    <td class="rowhead1" width="15%">Availability</td>
+    <td width="35%">Available to all students</td>
+  </tr>
+  <tr>
+    <td class="rowhead1" width="15%">Credit level (Normal year
+      taken)</td>
+      <td width="35%">SCQF Level 8 (Year 1 Undergraduate)</td>
+      <td class="rowhead1" width="15%">Credits</td>
+      <td width="35%">20</td>
+    </tr>
+    <tr>
+      <td class="rowhead1" width="15%">Home subject area</td>
+      <td width="35%">Informatics</td>
+      <td class="rowhead1" width="15%">Other subject area</td>
+      <td width="35%">None</td>
+    </tr>
+    <tr>
+      <td class="rowhead1" width="15%">Course website</td>
+      <td width="35%"><a href=
+        "http://www.inf.ed.ac.uk/teaching/courses/inf1-cg/" target="_blank"
+        title=
+        "View Website. Opens in a new window.">http://www.inf.ed.ac.uk/teaching/courses/inf1-cg/</a></td>
+        <td class="rowhead1" width="15%">Taught in Gaelic?</td>
+        <td width="35%">No</td>
+      </tr>
+      <tr>
+        <td class="rowhead1" width="15%">Course description</td>
+        <td width="85%" colspan="99">This course is designed as a first
+          introduction into cognitive science. It will provide a broad
+          overview of the subject suitable for all interested students,
+          including students on the Cognitive Science degrees and external
+          students.<br />
+          <br />
+          The aim of the course is to present a unified view of the field,
+          based on a computational approach to analyzing cognition. The
+          material is presented grouped by cognitive function, rather than by
+          subdiscipline.<br />
+          <br />
+          The course covers vision and attention, memory, motor control and
+          action, reasoning and problem solving, and language. All topics
+          will be presented from a computational point of view, and this
+          perspective will be reinforced by a lab sessions in which students
+          use implementations of cognitive models. The course will also
+          provide a basic grounding in cognitive science methodology,
+          focusing computational modeling, experimental design, and
+          statistics. Both symbolic and subsymbolic modeling approaches will
+          be covered.</td>
+        </tr>
+</table>
