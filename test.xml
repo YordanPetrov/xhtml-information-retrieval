@@ -1,0 +1,14 @@
+<root>
+  <tr>
+    <td class="rowhead1" width="15%">School</td>
+    <td width="35%">School of Informatics</td>
+    <td class="rowhead1" width="15%">College</td>
+    <td width="35%">College of Science and Engineering</td>
+  </tr>
+  <tr>
+    <td class="rowhead1" width="15%">Course_type</td>
+    <td width="35%">Standard</td>
+    <td class="rowhead1" width="15%">Availability</td>
+    <td width="35%">Available to all students</td>
+  </tr>
+</root>
