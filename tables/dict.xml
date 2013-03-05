@@ -1,7 +1,7 @@
 <dictionary>
 	<word dId="school" value="School"/>
 	<word dId="course_type" value="Course type"/>
-	<word dId="credit_level" value="Credit level (Normal year taken)"/>
+	<word dId="credit_level" value="Credit level (Normal year      taken)"/>
 	<word dId="subj_area" value="Home subject area"/>
 	<word dId="website" value="Course website"/>
 	<word dId="c_description" value="Course description"/>
@@ -18,7 +18,7 @@
 	<word dId="entry_requirements" value="Entry Requirements (not applicable to Visiting Students)"/>
 	<word dId="prerequisite" value="Pre-requisite"/>
 	<word dId="prerequisites" value="Pre-requisites"/>
-	<word dId="displayed" value="Displayed in Visiting Students Prospectus?"/>
+	<word dId="displayed" value="Displayed in Visiting Students              Prospectus?"/>
 	<word dId="vs_info" value="Information for Visiting Students"/>
 	<word dId="delivery_period" value="Delivery period"/>
 	<word dId="learn_enabled" value="Learn enabled"/>
