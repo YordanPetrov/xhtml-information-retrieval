@@ -16,42 +16,42 @@
 <!ELEMENT credit_level ( #PCDATA ) >
 <!ELEMENT credits ( #PCDATA ) >
 <!ELEMENT delivery_info ( delivery_period, learn_enabled, quota, activity, first_class, exam_info ) >
-<!ELEMENT delivery_period EMPTY >
+<!ELEMENT delivery_period ( #PCDATA ) >
 <!ELEMENT description ( #PCDATA ) >
 <!ELEMENT diet ( #PCDATA ) >
-<!ELEMENT displayed EMPTY >
+<!ELEMENT displayed ( #PCDATA ) >
 <!ELEMENT duration ( #PCDATA ) >
 <!ELEMENT entry_requirements ( prerequisites, restrictions, additional_costs, corequisites, other_requirements ) >
 <!ELEMENT exam ( diet, paper_name, duration ) >
 <!ELEMENT exam_info ( exam+ ) >
 <!ELEMENT first_class ( #PCDATA ) >
-<!ELEMENT friday EMPTY >
+<!ELEMENT friday ( #PCDATA ) >
 <!ELEMENT gaelic_taught ( #PCDATA ) >
 <!ELEMENT keywords ( #PCDATA ) >
-<!ELEMENT learn_enabled EMPTY >
+<!ELEMENT learn_enabled ( #PCDATA ) >
 <!ELEMENT learning_outcomes ( #PCDATA ) >
-<!ELEMENT location EMPTY >
-<!ELEMENT monday EMPTY >
+<!ELEMENT location ( #PCDATA ) >
+<!ELEMENT monday ( #PCDATA ) >
 <!ELEMENT other_requirements ( #PCDATA ) >
 <!ELEMENT other_subj_area ( #PCDATA ) >
 <!ELEMENT outline ( school, course_type, credit_level, subj_area, website, description, college, availability, credits, other_subj_area, gaelic_taught ) >
-<!ELEMENT paper_name EMPTY >
-<!ELEMENT prerequisite EMPTY >
+<!ELEMENT paper_name ( #PCDATA ) >
+<!ELEMENT prerequisite ( #PCDATA ) >
 <!ELEMENT prerequisites ( prerequisite ) >
-<!ELEMENT quota EMPTY >
+<!ELEMENT quota ( #PCDATA ) >
 <!ELEMENT reading_list ( #PCDATA ) >
-<!ELEMENT restrictions EMPTY >
+<!ELEMENT restrictions ( #PCDATA ) >
 <!ELEMENT school ( #PCDATA ) >
 <!ELEMENT special_arrangements ( #PCDATA ) >
 <!ELEMENT study_abroad ( #PCDATA ) >
 <!ELEMENT study_pattern ( #PCDATA ) >
 <!ELEMENT subj_area ( #PCDATA ) >
 <!ELEMENT syllabus ( #PCDATA ) >
-<!ELEMENT thursday EMPTY >
+<!ELEMENT thursday ( #PCDATA ) >
 <!ELEMENT time ( monday, tuesday, wednesday, thursday, friday ) >
 <!ELEMENT transferable_skills ( #PCDATA ) >
-<!ELEMENT tuesday EMPTY >
+<!ELEMENT tuesday ( #PCDATA ) >
 <!ELEMENT vs_info ( prerequisites, displayed ) >
 <!ELEMENT website ( #PCDATA ) >
-<!ELEMENT wednesday EMPTY >
-<!ELEMENT weeks EMPTY >
+<!ELEMENT wednesday ( #PCDATA ) >
+<!ELEMENT weeks ( #PCDATA ) >
