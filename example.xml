@@ -16,9 +16,9 @@
     <website>
       http://www.inf.ed.ac.uk/teaching/courses/inf1/cl/
     </website>
-    <description>
+    <c_description>
       The goal of this strand is to introduce the notions of computation and specification using finite-state systems and propositional logic. Finite state machines provide a simple model of computation that is widely used, has an interesting meta-theory and has immediate application in a range of situations. They are used as basic computational models across the whole of Informatics and at the same time are used successfully in many widely used applications and components. Propositional logic, similarly is the first step in understanding logic which is an essential element of the specification of Informatics systems and their properties.
-    </description>
+    </c_description>
     <college>
       College of Science and Engineering
     </college>
@@ -77,7 +77,7 @@
       </quota>
       <activity type="Lecture">
         <location></location>
-        <description></description>
+        <a_description></a_description>
         <weeks></weeks>
         <time>
           <monday></monday>
