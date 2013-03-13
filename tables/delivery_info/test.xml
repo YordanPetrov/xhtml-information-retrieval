@@ -1,5 +1,5 @@
 <table class="sitstablegrid">
-  
+
   <tr>
     <td class="rowhead1">Exam Diet</td>
     <td class="rowhead1" colspan="2">Paper Name</td>
@@ -23,32 +23,5 @@
     <td>2:00</td>
     <td colspan="2"></td>
     <td colspan="3"></td>
-  </tr>
-  
-  <tr>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-  </tr>
-  <tr>
-    <td>1 - Design a small finite-state system to describe, control or
-      realise some behaviour.<br />
-      2 - Evaluate the quality of such designs using standard engineering
-      approaches.<br />
-      3 - Apply the algebra of finite automata to design systems and to
-      solve simple problems on creating acceptors for particular
-      languages.<br />
-      4 - Describe simple problems using propositional logic.<br />
-      5 - For a given formula in propositional logic, draw a truth table
-      for that formula and hence deduce whether that formula is true or
-      not.<br />
-      6 - Apply a system of proof rules to prove simple propositional
-      theorems.<br />
-      7 - Describe the range of systems to which finite-state systems and
-      propositional logic are applicable and be able to use the meta
-      theory to demonstrate the limitations of these approaches in
-      concrete situations.
-    </td>
   </tr>
 </table>
