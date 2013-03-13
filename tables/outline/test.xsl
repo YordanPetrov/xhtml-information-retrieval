@@ -22,15 +22,16 @@
   </xsl:template>
 
   <xsl:template match="td">
-    <xsl:variable name="pronto" select="translate(text(), $ws, '')"/>
-    <xsl:variable name="elem_name" select="$vDicts/word[@value=$pronto]/@dId"/>
+    <xsl:variable name="no_ws" select="translate(text(), $ws, '')"/>
+    <xsl:variable name="elem_name" select="$vDicts/word[@value=$no_ws]/@dId"/>
     <xsl:element name="{$elem_name}">
       <!-- <xsl:value-of select="$vDicts/key(htmlToXml, text())"/> -->
       <!-- <xsl:value-of select="text()"/> lala -->
-      <!-- <xsl:value-of select="$vDicts/word[@value=$pronto]/@dId"/> -->
+      <!-- <xsl:value-of select="$vDicts/word[@value=$no_ws]/@dId"/> -->
       <!-- <xsl:value-of select="$vDicts/word/@value"/> -->
       <xsl:value-of select="./following-sibling::td"/>
     </xsl:element>
+    <xsl:text>&#xa;</xsl:text>
   </xsl:template>
 
 </xsl:stylesheet>

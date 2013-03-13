@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<school>School of Informatics</school>
+<college>College of Science and Engineering</college>
+<course_type>Standard</course_type>
+<availability>Available to all students</availability>
+<credit_level>SCQF Level 8 (Year 1 Undergraduate)</credit_level>
+<credits>20</credits>
+<subj_area>Informatics</subj_area>
+<other_subj_area>None</other_subj_area>
+<website>http://www.inf.ed.ac.uk/teaching/courses/inf1-cg/</website>
+<gaelic_taught>No</gaelic_taught>
+<c_description>This course is designed as a first
+          introduction into cognitive science. It will provide a broad
+          overview of the subject suitable for all interested students,
+          including students on the Cognitive Science degrees and external
+          students.
+          
+          The aim of the course is to present a unified view of the field,
+          based on a computational approach to analyzing cognition. The
+          material is presented grouped by cognitive function, rather than by
+          subdiscipline.
+          
+          The course covers vision and attention, memory, motor control and
+          action, reasoning and problem solving, and language. All topics
+          will be presented from a computational point of view, and this
+          perspective will be reinforced by a lab sessions in which students
+          use implementations of cognitive models. The course will also
+          provide a basic grounding in cognitive science methodology,
+          focusing computational modeling, experimental design, and
+          statistics. Both symbolic and subsymbolic modeling approaches will
+          be covered.</c_description>
+
