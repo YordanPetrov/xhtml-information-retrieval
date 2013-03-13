@@ -24,7 +24,23 @@
   <xsl:template match="td">
     <xsl:variable name="pronto" select="translate(text(), $ws, '')"/>
     <xsl:variable name="elem_name" select="$vDicts/word[@value=$pronto]/@dId"/>
-    <xsl:value-of select="$pronto"/> - <xsl:value-of select="$elem_name"/>
+      
+      <xsl:if test="contains($pronto, ':')">
+        <xsl:variable name="before" select="substring-before($pronto, ':')"/>
+        <xsl:variable name="after" select="substring-after($pronto, ':')"/>
+        <xsl:value-of select="$before"/> - <xsl:value-of select="$after"/>
+      </xsl:if>
+      <xsl:value-of select="$pronto"/> - <xsl:value-of select="$elem_name"/>
+
+      
+      <xsl:if test="$pronto = 'No Exam Information'">
+        <xsl:value-of select="$pronto"/>
+      </xsl:if>
+      
+      <!-- <xsl:if test="$pronto = 'Exam Information'"> -->
+        <!-- <xsl:apply-templates select="."/> -->
+      <!-- </xsl:if> -->
+      <!-- <xsl:value-of select="$pronto"/> - <xsl:value-of select="$elem_name"/> -->
     <xsl:text>&#xa;</xsl:text>
     <!-- <xsl:element name="{$elem_name}"> -->
       <!-- <xsl:value-of select="$vDicts/key(htmlToXml, text())"/> -->
@@ -34,5 +50,7 @@
       <!-- <xsl:value-of select="./following-sibling::td"/> -->
     <!-- </xsl:element> -->
   </xsl:template>
+
+
 
 </xsl:stylesheet>

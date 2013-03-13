@@ -1,86 +1,54 @@
 <table class="sitstablegrid">
-  <caption>Course Delivery Information</caption>
+  
   <tr>
-      <td colspan="99" style="height:5px;"></td>
+    <td class="rowhead1">Exam Diet</td>
+    <td class="rowhead1" colspan="2">Paper Name</td>
+    <td class="rowhead1">Hours:Minutes</td>
+    <td class="rowhead1" colspan="2"></td>
+    <td class="rowhead1" colspan="3"></td>
   </tr>
+  
   <tr>
-    <td class="rowhead1" colspan="6">Delivery period: 2012/13 Semester
-      2, Available to all students (SV1) 
-      <!-- Quota moved from mod.course_dets cms call 882028 --></td>
-      <td class="rowhead1" colspan="2">Learn enabled:&#160;&#160;No</td>
-      <td class="rowhead1">Quota:&#160;&#160;None</td>
+    <td class="data1nobg" nowrap="nowrap">Main Exam Diet S1
+      (December)</td>
+    <td colspan="2"></td>
+    <td>2:00</td>
+    <td colspan="2"></td>
+    <td colspan="3"></td>
   </tr>
+  
   <tr>
-    <td class="rowhead1" width="7%">Location</td>
-    <td class="rowhead1" width="7%">Activity</td>
-    <td class="rowhead1" width="20%">Description</td>
-    <td class="rowhead1" width="10%">Weeks</td>
-    <td class="rowhead1" width="10%">Monday</td>
-    <td class="rowhead1" width="10%">Tuesday</td>
-    <td class="rowhead1" width="10%">Wednesday</td>
-    <td class="rowhead1" width="10%">Thursday</td>
-    <td class="rowhead1" width="10%">Friday</td>
+    <td class="data1nobg" nowrap="nowrap">Resit Exam Diet (August)</td>
+    <td colspan="2"></td>
+    <td>2:00</td>
+    <td colspan="2"></td>
+    <td colspan="3"></td>
   </tr>
-  <!-- List of TELS: -->
+  
   <tr>
-    <td class="data1nobg" nowrap="nowrap">Central</td>
-    <td>Lecture</td>
-    <td></td>
-    <td>1-11</td>
-    <td></td>
-    <td>14:00 - 14:50</td>
-    <td></td>
-    <td></td>
     <td></td>
   </tr>
   <tr>
-    <td class="data1nobg" nowrap="nowrap">Central</td>
-    <td>Lecture</td>
-    <td></td>
-    <td>1-11</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td>14:00 - 14:50</td>
     <td></td>
   </tr>
   <tr>
-    <td class="data1nobg" nowrap="nowrap">Central</td>
-    <td>Lecture</td>
-    <td></td>
-    <td>1-11</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td>15:00 - 15:50</td>
-  </tr>
-  <!-- don't display first class or additional information if GSL_TMP4 not Y -->
-  <!-- 24/11/09 CG amended for JIRA 3611. Show first class and additional info for OCE-->
-  <!-- first class -->
-  <tr>
-    <td class="rowhead1" width="5%">First Class</td>
-    <td class="data1nobg" colspan="99">Week 1, Tuesday, 14:10 - 15:00,
-      Zone: Central. Meadows Lecture Theatre, Medical School, Teviot</td>
-    </tr>
-<tr>
-  <td class="rowhead1" colspan="99">No Exam Information</td>
-</tr>
-<tr>
-  <td></td>
-</tr>
-<tr>
-  <td>After completing this course successfully, students will be
-    able to:<br />
-    <br />
-    - demonstrate knowledge of key areas of cognitive science, and be
-    able to take an integrated, rather than disciplinary perspective on
-    the field;<br />
-    - evaluate the most important conceptual problems in cognitive
-    science and discuss the solutions that have been proposed;<br />
-    - analyze and modify simple computational models in a variety of
-    modeling paradigms;<br />
-    - demonstrate understanding of experimental design and statistics
-    and apply it to simple problems in cognitive science.</td>
+    <td>1 - Design a small finite-state system to describe, control or
+      realise some behaviour.<br />
+      2 - Evaluate the quality of such designs using standard engineering
+      approaches.<br />
+      3 - Apply the algebra of finite automata to design systems and to
+      solve simple problems on creating acceptors for particular
+      languages.<br />
+      4 - Describe simple problems using propositional logic.<br />
+      5 - For a given formula in propositional logic, draw a truth table
+      for that formula and hence deduce whether that formula is true or
+      not.<br />
+      6 - Apply a system of proof rules to prove simple propositional
+      theorems.<br />
+      7 - Describe the range of systems to which finite-state systems and
+      propositional logic are applicable and be able to use the meta
+      theory to demonstrate the limitations of these approaches in
+      concrete situations.
+    </td>
   </tr>
 </table>
