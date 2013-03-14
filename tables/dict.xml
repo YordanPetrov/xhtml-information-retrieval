@@ -62,4 +62,5 @@
 	<word dId="duration" value="Hours:Minutes"/> 
 	<word dId="study_pattern" value="Study Pattern"/> 
 	<word dId="study_abroad" value="Study Abroad"/>
+	<word dId="visit_students" value="Displayed in Visiting Students        Prospectus?"/>
 </dictionary>
