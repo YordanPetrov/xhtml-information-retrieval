@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta name="generator" content="HTML Tidy for Linux/x86 (vers 25 March 2009), see www.w3.org" />
@@ -149,20 +148,6 @@
     <table width="100%" border="0" cellpadding="6" cellspacing="0" class="content">
       <tr valign="top">
         <td>
-          <!-- IMPORTANT Any changes to this SRL should be tested as follows:
-- via 'View Course' and 'Amend Course' in Curriculum Management -> CCAM containter, 
-- on linking from within OCSS/OCE 
-- the course catalogue (post March '10.
-If any additional SITS classes are used  (eg sitstablenogrid) then these must be added
-to SLPs CX_CRSHDR1 and CX_CRSHDR2 for the course catalogue. The course catalogue SRL cannot include sits.css as this overwrites
-University website styles -->
-          <!-- temp variables passed in to determine various display options as follows -->
-          <!-- GSL_TMP1: blank or not CCAM: limited details displayed (link from OCSS, course catalogue); "CCAM" = all details; CCAMSUM = called from CCAM input/Amend course task (CCAM1_A4) so don't need instance data, no pre-requisites etc (because editable on on task screen ) -->
-          <!-- GSL_TMP2: Academic Year: if not null then a MAV(s) in single year is/are displayed for delivery; if null then SRL uses SLP CURRENT_AYR_CODE to display all MAV from current year forwards -->
-          <!-- GSL_TMP3: Display Portal links: Y or null - display links; N - don't display links (could link to external web server) -->
-          <!-- GSL_TMP4:passed in and passed through to CLASSES_TAB SRL. If set to Y then First class and additional info displayed-->
-          <!-- GSL_TMP5.GSL=DRPS if this is called via DRPS publish, else null-->
-          <!-- Course name, code, credits, subject area, brief description -->
           <br />
           <h1 id="sitspagetitle" class="sitspagetitle" style="font-size:150%;">Undergraduate Course: Informatics 1 - Computation
 and Logic (INFR08012)</h1>
