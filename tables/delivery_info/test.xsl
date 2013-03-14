@@ -12,9 +12,6 @@
     <xsl:variable name="start_activities" select="count($column_names/preceding-sibling::*)"/>
     <xsl:variable name="first_class" select="count(tr/td[text()='First Class']/../preceding-sibling::*)"/>
 
-    <!-- <xsl:value-of select="$start_activities"/>
-    <xsl:value-of select="$first_class"/> -->
-
     <xsl:for-each select="tr[position() &gt; $start_activities and position() &lt; $first_class]">
       <xsl:element name="activity">
         <xsl:for-each select="td[position() &lt; 4]">
@@ -107,20 +104,3 @@
   </xsl:template>
 
 </xsl:stylesheet>
-<!--         <xsl:if test="$pronto = 'No Exam Information'">
-          <xsl:value-of select="$pronto"/>
-        </xsl:if> -->
-
-<!-- 
-      <xsl:if test="contains($pronto, ':')">
-        <xsl:variable name="before" select="substring-before($pronto, ':')"/>
-        <xsl:variable name="after" select="substring-after($pronto, ':')"/>
-        <xsl:value-of select="$before"/> - <xsl:value-of select="$after"/>
-      </xsl:if>
-      <xsl:value-of select="$pronto"/> - <xsl:value-of select="$elem_name"/>
-
-      
-      <xsl:if test="$pronto = 'No Exam Information'">
-        <xsl:value-of select="$pronto"/>
-      </xsl:if>
-       -->

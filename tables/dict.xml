@@ -20,7 +20,7 @@
 	<word dId="prerequisites" value="Pre-requisites"/>
 	<word dId="displayed" value="Displayed in Visiting Students              Prospectus?"/>
 	<word dId="vs_info" value="Information for Visiting Students"/>
-	<word dId="delivery_period" value="Delivery period"/>
+	<word dId="delivery_period" value="                Delivery period"/>
 	<word dId="learn_enabled" value="Learn enabled"/>
 	<word dId="quota" value="Quota"/>
 	<word dId="location" value="Location"/>
@@ -62,5 +62,5 @@
 	<word dId="duration" value="Hours:Minutes"/> 
 	<word dId="study_pattern" value="Study Pattern"/> 
 	<word dId="study_abroad" value="Study Abroad"/>
-	<word dId="visit_students" value="Displayed in Visiting Students        Prospectus?"/>
+	<word dId="visit_students" value="Displayed in Visiting Students                  Prospectus?"/>
 </dictionary>
