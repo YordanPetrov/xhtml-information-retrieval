@@ -7,11 +7,7 @@
   <!-- <xsl:key name="kValByLangId" match="@value" use="concat(../../@lang, '+', ../@dId)"/> -->
 
   <xsl:variable name="vDicts" select="document('../dict.xml')/dictionary"/>
-  <xsl:key name="htmlToXml" match="@dId" use="@value"/>
 
-  <xsl:variable name="uc" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
-  <xsl:variable name="lc" select="'abcdefghijklknopqrstuvwxyz_'"/>
-  <!-- <xsl:variable name="ws" select="' &#13;&#10;&#09;()?'"/> -->
   <xsl:variable name="ws" select="'&#13;&#10;&#09;'"/>
   <xsl:template match="/table">
     <xsl:for-each select="tr">
