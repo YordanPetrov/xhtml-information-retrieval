@@ -1,0 +1,61 @@
+<!ELEMENT Activity ( #PCDATA ) > 
+<!ELEMENT Description EMPTY >
+<!ELEMENT Friday ( #PCDATA ) >
+<!ELEMENT Location ( #PCDATA ) >
+<!ELEMENT Monday EMPTY >
+<!ELEMENT Thursday ( #PCDATA ) >
+<!ELEMENT Tuesday EMPTY >
+<!ELEMENT Wednesday EMPTY >
+<!ELEMENT academic_description ( #PCDATA ) >
+<!ELEMENT activity ( Location, Activity, Description, time ) >
+<!ELEMENT additional_costs ( #PCDATA ) >
+
+<!ELEMENT additional_info ( academic_description, syllabus, transferable_skills, reading_list, study_abroad, study_pattern, keywords ) >
+<!ELEMENT assessment ( #PCDATA ) >
+<!ELEMENT availability ( #PCDATA ) >
+<!ELEMENT c_description ( #PCDATA ) >
+<!ELEMENT college ( #PCDATA ) >
+<!ELEMENT contacts ( course_organiser, course_secretary ) >
+<!ELEMENT corequisites ( #PCDATA ) >
+
+<!ELEMENT course ( title, outline, entry_requirements, vs_info, delivery_info,learning_outcomes, assessment, special_arrangements, additional_info, contacts ) >
+<!ELEMENT course_organiser ( #PCDATA ) >
+<!ELEMENT title ( #PCDATA ) >
+<!ELEMENT course_secretary ( #PCDATA ) >
+<!ELEMENT course_type ( #PCDATA ) >
+<!ELEMENT credit_level ( #PCDATA ) >
+<!ELEMENT credits ( #PCDATA ) >
+
+<!ELEMENT delivery_info (delivery_period, learn_enabled, quota, activity+, first_class, exam_info ) >
+<!ELEMENT delivery_period ( #PCDATA ) >
+<!ELEMENT duration ( #PCDATA ) >
+
+<!ELEMENT entry_requirements ( prerequisites, corequisites, restrictions, other_requirements, additional_costs ) >
+<!ELEMENT exam ( exam_diet, paper_name, duration ) >
+<!ELEMENT exam_diet ( #PCDATA ) >
+<!ELEMENT exam_info ( exam+ ) >
+<!ELEMENT first_class ( #PCDATA ) >
+<!ELEMENT gaelic_taught ( #PCDATA ) >
+<!ELEMENT keywords ( #PCDATA ) >
+<!ELEMENT learn_enabled ( #PCDATA ) >
+<!ELEMENT learning_outcomes ( #PCDATA ) >
+<!ELEMENT other_requirements ( #PCDATA ) >
+<!ELEMENT other_subj_area ( #PCDATA ) >
+
+<!ELEMENT outline ( school, college, course_type, availability, credit_level, credits, subj_area, other_subj_area, website, gaelic_taught, c_description ) >
+<!ELEMENT paper_name EMPTY >
+<!ELEMENT prerequisites ( #PCDATA ) >
+<!ELEMENT quota ( #PCDATA ) >
+<!ELEMENT reading_list ( #PCDATA ) >
+<!ELEMENT restrictions EMPTY >
+<!ELEMENT school ( #PCDATA ) >
+<!ELEMENT special_arrangements ( #PCDATA ) >
+<!ELEMENT study_abroad ( #PCDATA ) >
+<!ELEMENT study_pattern ( #PCDATA ) >
+<!ELEMENT subj_area ( #PCDATA ) >
+<!ELEMENT syllabus ( #PCDATA ) >
+<!ELEMENT time ( Monday, Tuesday, Wednesday, Thursday, Friday ) >
+<!ELEMENT transferable_skills ( #PCDATA ) >
+<!ELEMENT visit_students ( #PCDATA ) >
+<!ELEMENT vs_info ( prerequisites, visit_students ) >
+<!ELEMENT website ( #PCDATA ) >

@@ -1,39 +1,39 @@
 <courses>
   <course>
     <outline>
-    <school>
-      School of informatics
-    </school>
-    <course_type>
-      Standard
-    </course_type>
-    <credit_level>
-      SCQF Level 8 (Year 1 Undergraduate)
-    </credit_level>
-    <subj_area>
-      Informatics
-    </subj_area>
-    <website>
-      http://www.inf.ed.ac.uk/teaching/courses/inf1/cl/
-    </website>
-    <c_description>
-      The goal of this strand is to introduce the notions of computation and specification using finite-state systems and propositional logic. Finite state machines provide a simple model of computation that is widely used, has an interesting meta-theory and has immediate application in a range of situations. They are used as basic computational models across the whole of Informatics and at the same time are used successfully in many widely used applications and components. Propositional logic, similarly is the first step in understanding logic which is an essential element of the specification of Informatics systems and their properties.
-    </c_description>
-    <college>
-      College of Science and Engineering
-    </college>
-    <availability>
-      Available to all students
-    </availability>
-    <credits>
-      10
-    </credits>
-    <other_subj_area>
-      None
-    </other_subj_area>
-    <gaelic_taught>
-      No
-    </gaelic_taught>
+      <school>
+        School of informatics
+      </school>
+      <course_type>
+        Standard
+      </course_type>
+      <credit_level>
+        SCQF Level 8 (Year 1 Undergraduate)
+      </credit_level>
+      <subj_area>
+        Informatics
+      </subj_area>
+      <website>
+        http://www.inf.ed.ac.uk/teaching/courses/inf1/cl/
+      </website>
+      <c_description>
+        The goal of this strand is to introduce the notions of computation and specification using finite-state systems and propositional logic. Finite state machines provide a simple model of computation that is widely used, has an interesting meta-theory and has immediate application in a range of situations. They are used as basic computational models across the whole of Informatics and at the same time are used successfully in many widely used applications and components. Propositional logic, similarly is the first step in understanding logic which is an essential element of the specification of Informatics systems and their properties.
+      </c_description>
+      <college>
+        College of Science and Engineering
+      </college>
+      <availability>
+        Available to all students
+      </availability>
+      <credits>
+        10
+      </credits>
+      <other_subj_area>
+        None
+      </other_subj_area>
+      <gaelic_taught>
+        No
+      </gaelic_taught>
     </outline>
     <entry_requirements>
       <prerequisites>
@@ -111,18 +111,18 @@
       6 - Apply a system of proof rules to prove simple propositional theorems.
       7 - Describe the range of systems to which finite-state systems and propositional logic are applicable and be able to use the meta theory to demonstrate the limitations of these approaches in concrete situations.
     </learning_outcomes>
-    <asessment>
+    <assessment>
       Written Examination 100
       Assessed Assignments  0
       Oral Presentations  0
 
       Assessment
       Formative assessment will be used to provide feedback and guidance to students and will take the form of quizzes, exercise sheets, practical exercises and coursework assignments, covering areas from across the syllabus.
-    </asessment>
+    </assessment>
     <special_arrangements>
       None
     </special_arrangements>
-    <addition_info>
+    <additional_info>
       <academic_description>
         Not entered
       </academic_description>
@@ -151,7 +151,7 @@
       <keywords>
         Not entered
       </keywords>
-    </addition_info>
+    </additional_info>
     <contacts>
       <course_organiser>
         Mr Paul Anderson
