@@ -60,5 +60,6 @@
 	<word dId="exam_diet" value="Exam Diet"/>
 	<word dId="paper_name" value="Paper Name"/> 
 	<word dId="duration" value="Hours:Minutes"/> 
-	<word dId="yolo" value="''"/> 
+	<word dId="study_pattern" value="Study Pattern"/> 
+	<word dId="study_abroad" value="Study Abroad"/>
 </dictionary>
