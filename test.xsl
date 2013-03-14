@@ -1,18 +1,16 @@
 <xsl:stylesheet version="1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-  <xsl:template match="/root">
-    <xsl:for-each select="tr">
-      <xsl:for-each select="td[@class='rowhead1']">
-        <xsl:apply-templates select="."/>
-      </xsl:for-each>
-    </xsl:for-each>
+  <xsl:template match="//table[@class=content]/tr/td">
+    <xsl:value-of select="."/>
+    <!-- <xsl:call-template name="course_outline">
+      <xsl:with-param name="table" select="table[position()=#]"/>
+    </xsl:call-template> -->
   </xsl:template>
 
-  <xsl:template match="td">
-    <xsl:element name="{text()}">
-      <xsl:value-of select="./following-sibling::td"/>
-    </xsl:element>
+  <xsl:template name="course_outline">
+    <xsl:param name="table"/>
+  
+    
   </xsl:template>
-
 </xsl:stylesheet>
