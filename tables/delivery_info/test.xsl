@@ -36,12 +36,18 @@
       <xsl:text>&#xa;</xsl:text>
     </xsl:for-each>
 
-    <!-- PARSE THE SIMPLE PART For first class; -->
+    <xsl:if test="tr/td[text() = 'First Class']">
+      <xsl:variable name="first_class_info" select="tr/td[text() = 'First Class']/.."/>
+      <xsl:element name="first_class">
+      <xsl:value-of select="$first_class_info/td[@class='data1nobg']"/>        
+      </xsl:element>
+    </xsl:if>
+
+
     <xsl:variable name="column_names2" select="tr/td[text() = 'Exam Diet']/.."/>
 
     <xsl:if test="tr/td[text() = 'Exam Information']">
       <xsl:variable name="start" select="count($column_names2/preceding-sibling::*)"/>
-      <xsl:value-of select="$start"/>
       <xsl:for-each select="tr[position() &gt; $start and position() &lt; 12]">
 
         <xsl:element name="exam">
@@ -60,6 +66,11 @@
 
     </xsl:if>
 
+    <xsl:variable name="outcomes" select="//tr[last()]"/>
+    <xsl:element name="learning_outcomes">
+      <xsl:value-of select="$outcomes"/>      
+    </xsl:element>
+  
 
   </xsl:template>
 
