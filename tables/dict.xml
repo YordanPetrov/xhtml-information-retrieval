@@ -18,7 +18,7 @@
 	<word dId="entry_requirements" value="Entry Requirements (not applicable to Visiting Students)"/>
 	<word dId="prerequisite" value="Pre-requisite"/>
 	<word dId="prerequisites" value="Pre-requisites"/>
-	<word dId="displayed" value="Displayed in Visiting Students              Prospectus?"/>
+	<word dId="displayed" value="Displayed in Visiting Students Prospectus?"/>
 	<word dId="vs_info" value="Information for Visiting Students"/>
 	<word dId="delivery_period" value="Delivery period"/>
 	<word dId="learn_enabled" value="Learn enabled"/>
@@ -42,7 +42,7 @@
 	<word dId="exam_info" value="Exam information"/>
 	<word dId="delivery_info" value="Delivery information"/>
 	<word dId="learning_outcomes" value="Summary of Intended Learning Outcomes"/>
-	<word dId="asessment" value="tment Information"/>
+	<word dId="assessment" value="Assessment Information"/>
 	<word dId="special_arrangements" value="Special Arrangements"/>
 	<word dId="academic_description" value="Academic description"/>
 	<word dId="syllabus" value="Syllabus"/>

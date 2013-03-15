@@ -1,14 +1,14 @@
 <!ELEMENT academic_description ( #PCDATA ) >
 <!ELEMENT activity ( location, description, weeks, time ) >
 <!ATTLIST activity type NMTOKEN #REQUIRED >
-<!ELEMENT addition_info ( academic_description, syllabus, transferable_skills, reading_list, study_abroad, study_pattern, keywords ) >
+<!ELEMENT additional_info ( academic_description, syllabus, transferable_skills, reading_list, study_abroad, study_pattern, keywords ) >
 <!ELEMENT additional_costs ( #PCDATA ) >
-<!ELEMENT asessment ( #PCDATA ) >
+<!ELEMENT assessment ( #PCDATA ) >
 <!ELEMENT availability ( #PCDATA ) >
 <!ELEMENT college ( #PCDATA ) >
 <!ELEMENT contacts ( course_organiser, course_secretary ) >
 <!ELEMENT corequisites ( #PCDATA ) >
-<!ELEMENT course ( outline, entry_requirements, vs_info, delivery_info, learning_outcomes, asessment, special_arrangements, addition_info, contacts ) >
+<!ELEMENT course ( outline, entry_requirements, vs_info, delivery_info, learning_outcomes, assessment, special_arrangements, additional_info, contacts ) >
 <!ELEMENT course_organiser ( #PCDATA ) >
 <!ELEMENT course_secretary ( #PCDATA ) >
 <!ELEMENT course_type ( #PCDATA ) >
@@ -18,10 +18,11 @@
 <!ELEMENT delivery_info ( delivery_period, learn_enabled, quota, activity, first_class, exam_info ) >
 <!ELEMENT delivery_period ( #PCDATA ) >
 <!ELEMENT description ( #PCDATA ) >
+<!ELEMENT c_description ( #PCDATA ) >
 <!ELEMENT diet ( #PCDATA ) >
 <!ELEMENT displayed ( #PCDATA ) >
 <!ELEMENT duration ( #PCDATA ) >
-<!ELEMENT entry_requirements ( prerequisites, restrictions, additional_costs, corequisites, other_requirements ) >
+<!ELEMENT entry_requirements ( prerequisites , corequisites , restrictions , other_requirements , additional_costs ) >
 <!ELEMENT exam ( diet, paper_name, duration ) >
 <!ELEMENT exam_info ( exam+ ) >
 <!ELEMENT first_class ( #PCDATA ) >
@@ -34,7 +35,7 @@
 <!ELEMENT monday ( #PCDATA ) >
 <!ELEMENT other_requirements ( #PCDATA ) >
 <!ELEMENT other_subj_area ( #PCDATA ) >
-<!ELEMENT outline ( school, course_type, credit_level, subj_area, website, description, college, availability, credits, other_subj_area, gaelic_taught ) >
+<!ELEMENT outline ( school , college , course_type , availability , credit_level , credits , subj_area , other_subj_area , website , gaelic_taught , c_description ) >
 <!ELEMENT paper_name ( #PCDATA ) >
 <!ELEMENT prerequisite ( #PCDATA ) >
 <!ELEMENT prerequisites ( prerequisite ) >
