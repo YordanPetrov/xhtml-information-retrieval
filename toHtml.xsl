@@ -30,60 +30,6 @@
     </xsl:for-each>
   </xsl:template>
 
-  <!-- ############## outline ############### -->
-  <xsl:template match="outline">
-    <table>
-      <tr>
-        <td>
-          Outline
-        </td>
-      </tr>
-      <xsl:for-each select="./*">
-        <xsl:call-template name="simple_field"/>
-      </xsl:for-each>
-    </table>
-  </xsl:template>
-
-  <!-- ############## entry_requirements ############### -->
-  <xsl:template match="entry_requirements">
-    entry_requirements
-  </xsl:template>
-
-  <!-- ############## vs_info ############### -->
-  <xsl:template match="vs_info">
-    vs_info
-  </xsl:template>
-
-  <!-- ############## delivery_info ############### -->
-  <xsl:template match="delivery_info">
-    delivery_info
-  </xsl:template>
-
-  <!-- ############## learning_outcomes ############### -->
-  <xsl:template match="learning_outcomes">
-    learning_outcomes
-  </xsl:template>
-
-  <!-- ############## assessment ############### -->
-  <xsl:template match="assessment">
-    assessment
-  </xsl:template>
-
-  <!-- ############## special_arrangements ############### -->
-  <xsl:template match="special_arrangements">
-    special_arrangements
-  </xsl:template>
-
-  <!-- ############## additional_info ############### -->
-  <xsl:template match="additional_info">
-    additional_info
-  </xsl:template>
-
-  <!-- ############## contacts ############### -->
-  <xsl:template match="contacts">
-    contacts
-  </xsl:template>
-
   <xsl:template name="simple_field">
     <xsl:variable name="field_name" select="name(.)"/>
     <tr>
@@ -101,7 +47,6 @@
               <tr>
                 <xsl:for-each select="./*">
                   <td>
-                    <!-- <xsl:call-template name="horizontal_field"/> -->
                     <xsl:value-of select="name(.)"/>
                   </td>
                 </xsl:for-each>        
