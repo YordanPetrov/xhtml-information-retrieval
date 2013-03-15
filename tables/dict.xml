@@ -42,7 +42,7 @@
 	<word dId="exam_info" value="Exam information"/>
 	<word dId="delivery_info" value="Delivery information"/>
 	<word dId="learning_outcomes" value="Summary of Intended Learning Outcomes"/>
-	<word dId="asessment" value="Assessment Information"/>
+	<word dId="assessment" value="Assessment Information"/>
 	<word dId="special_arrangements" value="Special Arrangements"/>
 	<word dId="academic_description" value="Academic description"/>
 	<word dId="syllabus" value="Syllabus"/>

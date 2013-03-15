@@ -46,25 +46,25 @@
       <Location>Central</Location>
       <Activity>Lecture</Activity>
       <Description />
-      <time>
+      <Time>
         <Monday />
         <Tuesday />
         <Wednesday />
         <Thursday>11:10 - 12:00</Thursday>
         <Friday />
-      </time>
+      </Time>
     </activity>
     <activity>
       <Location>Central</Location>
       <Activity>Lecture</Activity>
       <Description />
-      <time>
+      <Time>
         <Monday />
         <Tuesday />
         <Wednesday />
         <Thursday />
         <Friday>14:00 - 14:50</Friday>
-      </time>
+      </Time>
     </activity>
     <first_class>Week 1, Thursday, 11:10 - 12:00,
       Zone: Central. LT 5 Appleton Tower</first_class>
