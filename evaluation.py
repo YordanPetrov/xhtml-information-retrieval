@@ -1,5 +1,7 @@
 import os
 import subprocess
+import urllib2
+from BeautifulSoup import BeautifulSoup
 
 class Evaluation():
 	"""Evaluation baby"""
@@ -16,7 +18,7 @@ class Evaluation():
 				out.close()
 
 	def extract(self):
-		script = '/Users/yordan/Development/xhtml-information-retrieval/test.xsl'
+		script = self.dir + '/test.xsl'
 		# xsltproc", "$file", "$file_path/test.xml"
 		for name in self.filenames:
 			if ".xhtml" in name:
@@ -26,4 +28,28 @@ class Evaluation():
 				out.close()
 
 	def convert(self):
-		return 0
+		script = self.dir + '/toHtml.xsl'
+		# xsltproc", "$file", "$file_path/test.xml"
+		for name in self.filenames:
+			if "CognitiveScience.xml" in name:
+				file_out = "{0}test.html".format(name.split('.')[0])
+				out = open(file_out, 'w')
+				subprocess.Popen(["xsltproc", script, name], stdout=out)
+				out.close()
+
+	def fetch_pages(self):
+		base_url = 'http://www.drps.ed.ac.uk/12-13/dpt/cx_sb_infr.htm'
+		base_url2 = 'http://www.drps.ed.ac.uk/12-13/dpt/'
+		r = urllib2.urlopen(base_url).read()
+		soup = BeautifulSoup(r)
+		all_links = soup.findAll('a')
+		links = {}
+		for link in all_links:
+			if "cxinf" in link["href"]:
+				links[link["href"]] = base_url2 + link["href"]
+
+		for key, value in links.items():
+			file_out = open("pages/" + key, 'w')
+			url_r = urllib2.urlopen(value).read()
+			file_out.write(url_r)
+			file_out.close()
