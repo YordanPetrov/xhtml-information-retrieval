@@ -2,3 +2,4 @@
 /evaluation/xhtml/*
 /evaluation/xml/*
 /evaluation/new-html/*
+*.pyc

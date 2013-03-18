@@ -2,6 +2,7 @@ import time
 import os
 import subprocess
 import urllib2
+import time
 from BeautifulSoup import BeautifulSoup
 
 class Evaluation():
@@ -19,7 +20,7 @@ class Evaluation():
 		all_links = soup.findAll('a')
 		links = {}
 		for link in all_links:
-			if "cxinf" in link["href"] and link["href"] not in self.ignore:
+			if "cxinf" in link["href"]: # and link["href"] not in self.ignore:
 				links[link["href"]] = base_url2 + link["href"]
 
 		for key, value in links.items():
@@ -61,13 +62,41 @@ class Evaluation():
 			out.close()
 
 	def run(self):
+		return 0
 		# self.fetch_pages()
 		# self.tidy()
 		# self.extract()
-		self.convert()
+		# self.convert()
 
-	def eval_tidy(self):
-		return 0		
+	def time_tidy(self):
+		print "----------- Tidy -------------"
+		start = time.time()
+		self.tidy()
+		end = time.time()
+		print "Time taken for tidying: ", end-start
+
+	def time_extract(self):
+		print "----------- Extract -------------"
+		start = time.time()
+		self.extract()
+		end = time.time()
+		print "Time taken for extracting: ", end-start
+
+	def time_convert(self):
+		print "----------- Convert -------------"
+		start = time.time()
+		self.convert()
+		end = time.time()
+		print "Time taken for converting: ", end-start
+
+	def time_all(self):
+		print "----------- All -------------"
+		start = time.time()
+		self.tidy()
+		self.extract()
+		self.convert()
+		end = time.time()
+		print "Time taken for ALL: ", end-start
 
 if __name__=="__main__":
 	eval = Evaluation()
