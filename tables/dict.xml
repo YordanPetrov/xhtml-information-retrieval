@@ -1,7 +1,7 @@
 <dictionary>
 	<word dId="school" value="School"/>
 	<word dId="course_type" value="Course type"/>
-	<word dId="credit_level" value="Credit level (Normal year      taken)"/>
+	<word dId="credit_level" value="Credit level (Normal yeartaken)"/>
 	<word dId="subj_area" value="Home subject area"/>
 	<word dId="website" value="Course website"/>
 	<word dId="c_description" value="Course description"/>
@@ -62,5 +62,5 @@
 	<word dId="duration" value="Hours:Minutes"/> 
 	<word dId="study_pattern" value="Study Pattern"/> 
 	<word dId="study_abroad" value="Study Abroad"/>
-	<word dId="visit_students" value="Displayed in Visiting Students        Prospectus?"/>
+	<word dId="visit_students" value="Displayed in Visiting StudentsProspectus?"/>
 </dictionary>

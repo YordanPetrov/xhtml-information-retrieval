@@ -64,8 +64,8 @@
       <xsl:variable name="field" select="h:td[@class='rowhead1']"/>
       <xsl:variable name="field2" select="translate($field, $ws, '')"/>
       <xsl:variable name="elem_name" select="$vDicts/word[@value=$field2]/@dId"/>
-      <!-- ### <xsl:value-of select="$field2"/> #-#
-      <xsl:value-of select="$elem_name"/> ### -->
+      <!-- ### <xsl:value-of select="$field2"/> #-# -->
+      <!-- ££<xsl:value-of select="$field2"/>££ -->
       <xsl:element name="{$elem_name}">
         <xsl:value-of select="h:td[@width='85%']"/>       
       </xsl:element>
@@ -152,6 +152,7 @@
   <xsl:template match="h:td" mode="outline">
     <xsl:variable name="no_ws" select="translate(text(), $ws, '')"/>
     <xsl:variable name="elem_name" select="$vDicts/word[@value=$no_ws]/@dId"/>
+    <!-- ££<xsl:value-of select="$no_ws"/>££ -->
     <xsl:element name="{$elem_name}">
       <xsl:value-of select="./following-sibling::h:td"/>
     </xsl:element>
