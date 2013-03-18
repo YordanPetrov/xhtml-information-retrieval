@@ -19,7 +19,7 @@ class Evaluation():
 		all_links = soup.findAll('a')
 		links = {}
 		for link in all_links:
-			if "cxinf" in link["href"] and link["href"] not in self.ignore:
+			if "cxinf" in link["href"]: #and link["href"] not in self.ignore:
 				links[link["href"]] = base_url2 + link["href"]
 
 		for key, value in links.items():

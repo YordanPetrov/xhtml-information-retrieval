@@ -25,22 +25,96 @@
       <entry_requirements>
         <xsl:apply-templates select="h:table[position()=2]" mode="requirements"/>
       </entry_requirements>
-      <vs_info>
-        <xsl:apply-templates select="h:table[position()=3]" mode="visiting"/>
-      </vs_info>
-      <xsl:apply-templates select="h:table[position()=4]" mode="delivery"/>
-      <assessment>
-        <xsl:apply-templates select="h:table[position()=5]" mode="assessment"/>
-      </assessment>
-      <special_arrangements>
-        <xsl:apply-templates select="h:table[position()=6]" mode="special"/>
-      </special_arrangements>
-      <additional_info>
-        <xsl:apply-templates select="h:table[position()=7]" mode="visiting"/>
-      </additional_info>
-      <contacts>
-        <xsl:apply-templates select="h:table[position()=8]" mode="requirements"/>
-      </contacts>        
+
+      <xsl:if test="count(h:table)=7">
+        <xsl:apply-templates select="h:table[position()=3]" mode="delivery">
+          <xsl:with-param name="learning" select="'true'"/>
+        </xsl:apply-templates>
+        <assessment>
+          <xsl:apply-templates select="h:table[position()=4]" mode="assessment"/>
+        </assessment>
+        <special_arrangements>
+          <xsl:apply-templates select="h:table[position()=5]" mode="special"/>
+        </special_arrangements>
+        <additional_info>
+          <xsl:apply-templates select="h:table[position()=6]" mode="visiting"/>
+        </additional_info>
+        <contacts>
+          <xsl:apply-templates select="h:table[position()=7]" mode="requirements"/>
+        </contacts>        
+      </xsl:if>
+      
+      <xsl:if test="count(h:table)=8">
+        <xsl:if test="h:table/h:caption[text()='Summary of Intended Learning Outcomes']">
+          <xsl:apply-templates select="h:table[position()=3]" mode="delivery">
+            <xsl:with-param name="learning" select="'false'"/>
+          </xsl:apply-templates>
+          <learning_outcomes>
+            <xsl:value-of select="h:table[position()=4]/h:tr/h:td"/>
+          </learning_outcomes>
+
+          <assessment>
+            <xsl:apply-templates select="h:table[position()=5]" mode="assessment"/>
+          </assessment>
+          <special_arrangements>
+            <xsl:apply-templates select="h:table[position()=6]" mode="special"/>
+          </special_arrangements>
+          <additional_info>
+            <xsl:apply-templates select="h:table[position()=7]" mode="visiting"/>
+          </additional_info>
+          <contacts>
+            <xsl:apply-templates select="h:table[position()=8]" mode="requirements"/>
+          </contacts>        
+
+        </xsl:if>
+        <xsl:if test="not(h:table/h:caption[text()='Summary of Intended Learning Outcomes'])">
+          <vs_info>
+            <xsl:apply-templates select="h:table[position()=3]" mode="visiting"/>
+          </vs_info>
+          <xsl:apply-templates select="h:table[position()=4]" mode="delivery">
+            <xsl:with-param name="learning" select="'true'"/>
+          </xsl:apply-templates>
+          <assessment>
+            <xsl:apply-templates select="h:table[position()=5]" mode="assessment"/>
+          </assessment>
+          <special_arrangements>
+            <xsl:apply-templates select="h:table[position()=6]" mode="special"/>
+          </special_arrangements>
+          <additional_info>
+            <xsl:apply-templates select="h:table[position()=7]" mode="visiting"/>
+          </additional_info>
+          <contacts>
+            <xsl:apply-templates select="h:table[position()=8]" mode="requirements"/>
+          </contacts>        
+        </xsl:if>
+      </xsl:if>
+
+      <!-- #### Bad tables, thank you, ITO  #### -->
+      <xsl:if test="count(h:table)=9">
+        <vs_info>
+          <xsl:apply-templates select="h:table[position()=3]" mode="visiting"/>
+        </vs_info>
+
+        <xsl:apply-templates select="h:table[position()=4]" mode="delivery">
+          <xsl:with-param name="learning" select="'false'"/>
+        </xsl:apply-templates>
+
+        <learning_outcomes>
+          <xsl:value-of select="h:table[position()=5]/h:tr/h:td"/>
+        </learning_outcomes>
+        <assessment>
+          <xsl:apply-templates select="h:table[position()=6]" mode="assessment"/>
+        </assessment>
+        <special_arrangements>
+          <xsl:apply-templates select="h:table[position()=7]" mode="special"/>
+        </special_arrangements>
+        <additional_info>
+          <xsl:apply-templates select="h:table[position()=8]" mode="visiting"/>
+        </additional_info>
+        <contacts>
+          <xsl:apply-templates select="h:table[position()=9]" mode="requirements"/>
+        </contacts>        
+      </xsl:if>
     </course>
   </xsl:template>
 
@@ -77,6 +151,7 @@
   </xsl:template>
   <!-- ##############################- DELIVER ########################### -->
   <xsl:template match="h:table" mode="delivery">
+    <xsl:param name="learning"/>
     <delivery_info>
       <xsl:call-template name="colon_split">
         <xsl:with-param name="cells" select="h:tr[position()=2]"/>
@@ -138,9 +213,11 @@
       </exam_info>
     </delivery_info>
 
-    <xsl:element name="learning_outcomes">
-      <xsl:value-of select="h:tr[last()]/h:td"/>      
-    </xsl:element>
+    <xsl:if test="$learning = 'true'">
+      <xsl:element name="learning_outcomes">
+        <xsl:value-of select="h:tr[last()]/h:td"/>      
+      </xsl:element>
+    </xsl:if>
 
   </xsl:template>
   <!-- ##############################- ASSESSMENT ########################### -->
