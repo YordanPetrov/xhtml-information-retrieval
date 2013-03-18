@@ -96,7 +96,9 @@ class Evaluation():
 		self.extract()
 		self.convert()
 		end = time.time()
+		print "###################################"
 		print "Time taken for ALL: ", end-start
+		print "###################################"
 
 if __name__=="__main__":
 	eval = Evaluation()
