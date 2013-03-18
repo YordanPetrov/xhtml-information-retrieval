@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<course xmlns:h="http://www.w3.org/1999/xhtml"><title> Logic Programming(INFR09031)</title><outline><school>School of Informatics</school><college>College of Science and Engineering</college><course_type>Standard</course_type><availability>Available to all students</availability><credit_level>SCQF Level 9 (Year 3 Undergraduate)</credit_level><credits>10</credits><subj_area>Informatics</subj_area><other_subj_area>None</other_subj_area><website>http://www.inf.ed.ac.uk/teaching/courses/lp</website><gaelic_taught>No</gaelic_taught><c_description>This course describes the connection
+between Horn clause logic and computation via programming. The
+reference point for the course is the Prolog programming language -
+a principal aim being to develop students' programming expertise
+through experience in typical applications. The course is divided
+into two interacting sections: a lecture-based theory section and a
+laboratory-based programming section. Students attend one lecture
+and one two-hour laboratory session each week. Each laboratory
+session tackles a different programming problem that is typical of
+this style of program design.</c_description></outline><entry_requirements><prerequisites/><corequisites/><restrictions/><other_requirements>Successful completion of Year 2 of an Informatics
+Single or Combined Degree, or equivalent by permission of the
+School.
+
+This course has the following mathematics prerequisites:
+
+- Propositional logic (at the level taught in Informatics 1
+Computation and Logic).
+- First Order Logic (at the level taught in Informatics 2D).</other_requirements><additional_costs>None</additional_costs></entry_requirements><vs_info><prerequisites>None</prerequisites><visit_students>Yes</visit_students></vs_info><delivery_info><delivery_period> 2012/13 Semester1, Available to all students (SV1) </delivery_period><learn_enabled>  No</learn_enabled><quota>  None</quota><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday>15:00 - 15:50</Monday><Tuesday/><Wednesday/><Thursday/><Friday/></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday/><Wednesday/><Thursday>15:00 - 15:50</Thursday><Friday/></time></activity><activity><Location>First Class</Location><Activity>Week 1, Monday, 15:00 - 15:50,
+Zone: Central. Faculty Room South David Hume Tower</Activity><time/></activity><activity><Location>Exam Information</Location><time/></activity><activity><Location>Exam Diet</Location><Activity>Paper Name</Activity><Description>Hours:Minutes</Description><time><Monday/></time></activity><activity><Location>Main Exam Diet S2
+(April/May)</Location><Activity>Theory</Activity><Description>1:00</Description><time><Monday/></time></activity><activity><Location>Main Exam Diet S2
+(April/May)</Location><Activity>Programming</Activity><Description>2:00</Description><time><Monday/></time></activity><activity><Location>Resit Exam Diet (August)</Location><Activity>Theory</Activity><Description>1:00</Description><time><Monday/></time></activity><activity><Location>Resit Exam Diet (August)</Location><Activity>Programming</Activity><Description>2:00</Description><time><Monday/></time></activity><activity><Location/><time/></activity><activity><Location/><time/></activity><activity><Location>Delivery period: 2012/13 Semester
+1, Part-year visiting students only (VV1) 
+</Location><Activity>Learn enabled:  No</Activity><Description>Quota:  None</Description><time/></activity><activity><Location>Location</Location><Activity>Activity</Activity><Description>Description</Description><time><Monday>Monday</Monday><Tuesday>Tuesday</Tuesday><Wednesday>Wednesday</Wednesday><Thursday>Thursday</Thursday><Friday>Friday</Friday></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday/><Wednesday/><Thursday>15:00 - 15:50</Thursday><Friday/></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday>15:00 - 15:50</Monday><Tuesday/><Wednesday/><Thursday/><Friday/></time></activity><first_class>Week 1, Monday, 15:00 - 15:50,
+Zone: Central. Faculty Room South David Hume Tower</first_class><exam_info><exam><exam_diet>Main Exam Diet S1
+(December)</exam_diet><paper_name>Theory</paper_name><duration>1:00</duration></exam><exam><exam_diet>Main Exam Diet S1
+(December)</exam_diet><paper_name>Programming</paper_name><duration>2:00</duration></exam></exam_info></delivery_info><learning_outcomes>1 - To understand the principles of declarative
+specification.
+2 - To be able to construct well crafted Prolog programs of
+moderate size and sophistication.
+3 - To be able to interpret problems in a style that suits logic
+programming.</learning_outcomes><assessment>Written Examination 80
+Assessed Assignments 20
+Oral Presentations 0
+
+Assessment
+Two pieces of assessed coursework each contribute 10% to the final
+course grade, and are particularly directed at learning outcomes 1
+and 2. There are two examinations, one a written theory exam and
+one a programming practical, each contributing 40% to the final
+course grade
+
+If delivered in semester 1, this course will have an option for
+semester 1 only visiting undergraduate students, providing
+assessment prior to the end of the calendar year.</assessment><special_arrangements>None</special_arrangements><additional_info><academic_description>Not entered</academic_description><syllabus>The following are core elements of the syllabus
+(not in strict chronological order):
+
+* Declarative representation with Horn clauses: o Syntax
+(structured terms, logical operators, etc.) o The relationship
+between Horn clauses and predicate logic (Lloyd Topor
+transformations) o Semantics of Horn clause definitions o Recursion
+(well founded orderings) o Term matching o Sequences as binary
+terms o Patterns of problem description (incremental
+specification)
+
+* Computation with Horn Clauses: o Standard Prolog computation
+model o Specialised notation for sequence processing o Computation
+as finite domain constraint solving o Distributed computation via
+tuple spaces o Defining computation models via
+meta-interpretation
+
+* Search, state and computation: o Avoiding search through problem
+representation o Forcing exhaustive search o Limiting search o
+Closed world negation o Annotating clauses to reduce search o
+Tabled resolution o Adapting the clause base
+
+* Relationship to common software engineering paradigms o Databases
+o Object orientation o Rule based systems o Multi-agent
+systems
+
+Relevant QAA Computing Curriculum Sections: Artificial
+Intelligence, Programming Fundamentals</syllabus><transferable_skills>Not entered</transferable_skills><reading_list>* Clocksin, W.F. and Mellish, C.S., 2003,
+"Programming in Prolog: Using the ISO Standard"
+* Sterling, L. &amp; Shapiro, E. 1994, "The Art of Prolog"</reading_list><study_abroad>Not entered</study_abroad><study_pattern>Lectures 20
+Tutorials 8
+Timetabled Laboratories 0
+Non-timetabled assessed assignments 12
+Private Study/Other 60
+Total 100</study_pattern><keywords>Not entered</keywords></additional_info><contacts><course_organiser>Mr Vijayanand Nagarajan
+Tel: (0131 6)51 3440
+Email: vijay.nagarajan@ed.ac.uk</course_organiser><course_secretary>Mrs Victoria Swann
+Tel: (0131 6)51 7607
+Email: Vicky.Swann@ed.ac.uk</course_secretary></contacts></course>

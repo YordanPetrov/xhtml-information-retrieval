@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<course xmlns:h="http://www.w3.org/1999/xhtml"><title> Algorithmic Game Theory andits Applications (INFR11020)</title><outline><school>School of Informatics</school><college>College of Science and Engineering</college><course_type>Standard</course_type><availability>Available to all students</availability><credit_level>SCQF Level 11 (Postgraduate)</credit_level><credits>10</credits><subj_area>Informatics</subj_area><other_subj_area>None</other_subj_area><website>http://www.inf.ed.ac.uk/teaching/courses/agta</website><gaelic_taught>No</gaelic_taught><c_description>Game theory is the formal study of
+interaction between "self-interested" (or "goal-oriented")
+"systems" (or "agents" or "decision makers" or "players"), &amp;
+strategic scenarios that arise in such settings. It began life in
+Economics in the 1940's with the work of von Neumann &amp;
+Morgenstern, but has since been applied to an extraordinary range
+of subjects, including political science, evolutionary biology
+&amp; even to inspection regimes for arms control.
+
+Game theory has for years also played an important, if less
+recognized, role in several branches of computer science.
+Applications within computer science include the use of games in
+automated verification &amp; model checking to model computing
+systems in an unknown and possibly adverse environment. In AI games
+are applied to the analysis of multi-agent systems. Recently, with
+the advent of the internet and e-commerce, many game theoretic
+questions in the interplay between economics &amp; computing have
+received extensive attention. These include electronic auctions,
+&amp; more generally mechanism design questions (inverse game
+theory) related to finding incentive structures for cooperation
+between independent entities on the internet.
+
+Wherever game theory plays a quantitative role, algorithmic and
+computational questions related to "solving" games are also of
+central importance.
+
+This course aims to bring together as a coherent body of knowledge
+the game theoretic algorithms &amp; models that underpin several
+flourishing subjects at the intersection of computer science,
+economics and e-commerce, &amp; AI.</c_description></outline><entry_requirements><prerequisites>It is RECOMMENDED that students have passed
+Algorithms and Data
+Structures (INFR09006)</prerequisites><corequisites/><restrictions/><other_requirements>For Informatics PG and final year MInf students
+only, or by special permission of the School. A reasonably solid
+grounding in theoretical computer science and/or mathematics is
+assumed.</other_requirements><additional_costs>None</additional_costs></entry_requirements><vs_info><prerequisites>None</prerequisites><visit_students>Yes</visit_students></vs_info><delivery_info><delivery_period> 2012/13 Semester1, Available to all students (SV1) </delivery_period><learn_enabled>  No</learn_enabled><quota>  None</quota><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday/><Wednesday/><Thursday>15:00 - 15:50</Thursday><Friday/></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday>15:00 - 15:50</Monday><Tuesday/><Wednesday/><Thursday/><Friday/></time></activity><activity><Location>First Class</Location><Activity>Week 1, Monday, 15:00 - 15:50,
+Zone: Central. S37 7 George Square</Activity><time/></activity><activity><Location>Exam Information</Location><time/></activity><activity><Location>Exam Diet</Location><Activity>Paper Name</Activity><Description>Hours:Minutes</Description><time><Monday/></time></activity><activity><Location>Main Exam Diet S2
+(April/May)</Location><Activity/><Description>2:00</Description><time><Monday/></time></activity><activity><Location/><time/></activity><activity><Location/><time/></activity><activity><Location>Delivery period: 2012/13 Semester
+1, Part-year visiting students only (VV1) 
+</Location><Activity>Learn enabled:  No</Activity><Description>Quota:  None</Description><time/></activity><activity><Location>Location</Location><Activity>Activity</Activity><Description>Description</Description><time><Monday>Monday</Monday><Tuesday>Tuesday</Tuesday><Wednesday>Wednesday</Wednesday><Thursday>Thursday</Thursday><Friday>Friday</Friday></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday>15:00 - 15:50</Monday><Tuesday/><Wednesday/><Thursday/><Friday/></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday/><Wednesday/><Thursday>15:00 - 15:50</Thursday><Friday/></time></activity><first_class>Week 1, Monday, 15:00 - 15:50,
+Zone: Central. S37 7 George Square</first_class><exam_info><exam><exam_diet>Main Exam Diet S1
+(December)</exam_diet><paper_name/><duration>2:00</duration></exam></exam_info></delivery_info><learning_outcomes>1 - Understanding of various models of games.
+2 - How they are related, and how they arise in various
+applications in computer science and elsewhere.
+3 - An understanding of linear programming and some of its broad
+applicability.
+4 - An understanding of algorithms used to "solve" such games and
+their efficiency.
+5 - Ability to model various scenarios as strategic games, and
+devise algorithms to solve them.
+6 - An understanding of some of the aims of the current research
+frontier.
+7 - Refinement of analytical skills.
+8 - The following learning outcomes are all to be demonstrated via
+a combination of coursework and the exam.</learning_outcomes><assessment>Written Examination 70
+Assessed Assignments 30
+Oral Presentations 0
+
+Assessment
+Students will be given written practical assignments reinforcing
+the material taught in class. Some of the practical work may ask
+students to implement parts of algorithms for "solving" a game that
+arise in one of the application areas.
+
+If delivered in semester 1, this course will have an option for
+semester 1 only visiting undergraduate students, providing
+assessment prior to the end of the calendar year.</assessment><special_arrangements>None</special_arrangements><additional_info><academic_description>Not entered</academic_description><syllabus>* Examples of diverse games.
+* Zero-sum two-person games: LP, simplex, LP-duality, mixed
+strategies and the minimax theorem.
+* General games in strategic form:
+o Equilibria and Nash's theorem.
+o 2-player equilibria: Lemke-Howson algorithm and its
+variants.
+* Games in Extensive form (mainly zero-sum, perfect
+information):
+o Game trees. Relation to Strategic games.
+o And/Or game graphs and reachability games.
+o bisimulation, simulation, parity games, and other omega-games on
+automata(finitely presented, infinite duration games).
+o mean value games, MDPs, and stochastic games.
+* Mechanism design and inverse game theory: designing games where
+selfish players will behave as desired.
+o Vickery auctions and other mechanisms.
+o Combinatorial auctions.
+o Incentive structures for the internet.
+
+Relevant QAA Computing Curriculum Sections: Artificial
+Intelligence, Data Structures and Algorithms, e-commerce,
+Simulation and Modelling, Theoretical Computing</syllabus><transferable_skills>Not entered</transferable_skills><reading_list>Multiagent Systems, Y.Shoham &amp; K. Leyton-Brown,
+Cambridge University Press 2009
+* Relevant references include:
+* "Linear Programming" by V. Chvatal,
+* "Game Theory" by Osborne and Rubinstein, "Game Theory: Anaysis of
+Conflict" by R. Myerson, several chapters from "Handbook of Game
+Theory, vol. I-III"
+* Chapters from "Automata, logic, and infinite games", (Eds.)
+Gradel, Thomas, and Wilke.
+* Survey papers, including "Algorithms, games, and the internet" by
+Papadimitriou, "Two-person equilibria" by von Stengel, and
+"Algorithmic Mechanism Design" by Nisan and Ronen</reading_list><study_abroad>Not entered</study_abroad><study_pattern>Lectures 20
+Tutorials 0
+Timetabled Laboratories 0
+Non-timetabled assessed assignments 36
+Private Study/Other 44
+Total 100</study_pattern><keywords>Not entered</keywords></additional_info><contacts><course_organiser>Dr Iain Murray
+Tel: (0131 6)51 9078
+Email: I.Murray@ed.ac.uk</course_organiser><course_secretary>Miss Kate Weston
+Tel: (0131 6)50 2701
+Email: Kate.Weston@ed.ac.uk</course_secretary></contacts></course>

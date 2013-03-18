@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<course xmlns:h="http://www.w3.org/1999/xhtml"><title> Neural Computation(INFR11008)</title><outline><school>School of Informatics</school><college>College of Science and Engineering</college><course_type>Standard</course_type><availability>Available to all students</availability><credit_level>SCQF Level 11 (Postgraduate)</credit_level><credits>10</credits><subj_area>Informatics</subj_area><other_subj_area>None</other_subj_area><website>http://www.inf.ed.ac.uk/teaching/courses/nc</website><gaelic_taught>No</gaelic_taught><c_description>This module aims to examine:
+
+How the brain computes and processes information from the outside
+world.
+
+How the brain wires up and how it stores information.
+
+We will study the brain at a fairly low level, so that we can make
+contact with neurophysiological data. We will show the necessary
+biological data and how it can be described in mathematical terms.
+We will present modelling methods applicable to various levels of
+organisation of the nervous system (e.g. single cells, networks of
+cells). We discuss models of particular brain subsystems.
+
+In the practical session we use Matlab and NEURON to simulate the
+models (No familiarity with NEURON required, some self study of
+Matlab is beneficial.)</c_description></outline><entry_requirements><prerequisites/><corequisites/><restrictions/><other_requirements>For Informatics PG and final year MInf students
+only, or by special permission of the School. Experience in
+programming or simulation systems desirable. Fair amount of
+mathematics (first order differential equations, eigenvectors,
+descriptive statistics). No background in Neuroscience is
+necessary.</other_requirements><additional_costs>None</additional_costs></entry_requirements><vs_info><prerequisites>None</prerequisites><visit_students>Yes</visit_students></vs_info><delivery_info><delivery_period> 2012/13 Semester1, Available to all students (SV1) </delivery_period><learn_enabled>  No</learn_enabled><quota>  None</quota><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday/><Wednesday/><Thursday/><Friday>12:10 - 13:00</Friday></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday>12:10 - 13:00</Tuesday><Wednesday/><Thursday/><Friday/></time></activity><activity><Location>First Class</Location><Activity>Week 1, Tuesday, 12:10 - 13:00,
+Zone: Central. LT4 7 Bristo Square</Activity><time/></activity><activity><Location>No Exam Information</Location><time/></activity><activity><Location/><time/></activity><activity><Location>Delivery period: 2012/13 Semester
+1, Part-year visiting students only (VV1) 
+</Location><Activity>Learn enabled:  No</Activity><Description>Quota:  0</Description><time/></activity><activity><Location>Location</Location><Activity>Activity</Activity><Description>Description</Description><time><Monday>Monday</Monday><Tuesday>Tuesday</Tuesday><Wednesday>Wednesday</Wednesday><Thursday>Thursday</Thursday><Friday>Friday</Friday></time></activity><activity><Location>No Classes have been defined for
+this Course</Location><time/></activity><first_class>Week 1, Tuesday, 12:10 - 13:00,
+Zone: Central. LT4 7 Bristo Square</first_class><exam_info/></delivery_info><learning_outcomes>1 - Demonstrate a basic knowledge of neuroscience and neural
+computation.
+2 - Abstract neuroscience experimental data to a model and should
+be able to critically evaluate these models.
+3 - Understand the major limitations in verifying the model
+experimentally.</learning_outcomes><assessment>Written Examination 0
+Assessed Assignments 100
+Oral Presentations 0
+
+Assessment
+There will be two assessed assignments.
+
+If delivered in semester 1, this course will have an option for
+semester 1 only visiting undergraduate students, providing
+assessment prior to the end of the calendar year.</assessment><special_arrangements>None</special_arrangements><additional_info><academic_description>Not entered</academic_description><syllabus>*Introduction and overview of the brain
+*The neuron
+*Biophysical and reduced models of neurons
+*Synapses
+*Computation and coding in the brain
+*Networks of neurons
+*Early and higher visual processing
+*Network-level modelling
+*Plasticity and learning
+
+Relevant QAA Computing Curriculum Sections: Simulation and
+Modelling, Artificial intelligence</syllabus><transferable_skills>Not entered</transferable_skills><reading_list>* Supplementary reading list below (Detailed
+lecture notes are provided)
+* Shepherd, G. M. (1994). Neurobiology. Oxford University Press,
+New York, third edition.
+* Abbott and Dayan (2001) Theoretical Neuroscience . MIT press
+(recommended)
+* Koch, C. and Segev, I., editors (1998). Methods in Neuronal
+Modelling: From Ions to Networks. MIT Press, Cambridge,
+Massachusetts, second edition.
+* Churchland, P. S. and Sejnowski, T. J. (1992). The Computational
+Brain. MIT Press, Cambridge, Massachusetts.</reading_list><study_abroad>Not entered</study_abroad><study_pattern>Lectures 20
+Tutorials 0
+Timetabled Laboratories 0
+Non-timetabled assessed assignments 40
+Private Study/Other 40
+Total 100</study_pattern><keywords>Not entered</keywords></additional_info><contacts><course_organiser>Dr Iain Murray
+Tel: (0131 6)51 9078
+Email: I.Murray@ed.ac.uk</course_organiser><course_secretary>Miss Kate Weston
+Tel: (0131 6)50 2701
+Email: Kate.Weston@ed.ac.uk</course_secretary></contacts></course>

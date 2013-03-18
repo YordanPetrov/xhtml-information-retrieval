@@ -7,7 +7,7 @@
     indent="yes"/>
 
   <xsl:variable name="ws" select="'&#13;&#10;&#09;'"/>
-  <xsl:variable name="vDicts" select="document('./tables/dict.xml')/dictionary"/>
+  <xsl:variable name="vDicts" select="document('./dict.xml')/dictionary"/>
   <xsl:template match="/">
     <html>
       <body>

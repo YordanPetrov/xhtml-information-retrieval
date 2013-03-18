@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<course xmlns:h="http://www.w3.org/1999/xhtml"><title> Information Theory(INFR11087)</title><outline><school>School of Informatics</school><college>College of Science and Engineering</college><course_type>Standard</course_type><availability>Available to all students</availability><credit_level>SCQF Level 11 (Postgraduate)</credit_level><credits>10</credits><subj_area>Informatics</subj_area><other_subj_area>None</other_subj_area><website>http://www.inf.ed.ac.uk/teaching/courses/it/</website><gaelic_taught>No</gaelic_taught><c_description>Information theory describes the
+fundamental limits on our ability to store, process and communicate
+data, whether in natural or artificial systems. Understanding and
+approaching these limits is important in a wide variety of topics
+in informatics.
+
+This course covers the theory introduced by Shannon in 1948, which
+revolutionized how we think about information and communication,
+and some of the practical techniques for compression and reliable
+communication that have been developed since.</c_description></outline><entry_requirements><prerequisites/><corequisites/><restrictions/><other_requirements>- A solid mathematical background is
+required.
+- Some general mathematical ability (at MfI 1 level) is essential:
+Special functions log, exp are fundamental; mathematical notation
+(such as sums) used throughout; some calculus.
+- Probability theory is used extensively: Random variables,
+expectation, Bernoulli trials, Binomial distribution, joint and
+conditional probabilities (MfI 1&amp;4).</other_requirements><additional_costs>None</additional_costs></entry_requirements><vs_info><prerequisites>None</prerequisites><visit_students>No</visit_students></vs_info><delivery_info><delivery_period> 2012/13 Semester1, Available to all students (SV1) </delivery_period><learn_enabled>  No</learn_enabled><quota>  None</quota><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday>14:10 - 15:00</Tuesday><Wednesday/><Thursday/><Friday/></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday/><Wednesday/><Thursday/><Friday>14:10 - 15:00</Friday></time></activity><activity><Location>First Class</Location><Activity>Week 1, Tuesday, 14:00 - 14:50,
+Zone: Central. LT4 7 Bristo Square</Activity><time/></activity><activity><Location>Exam Information</Location><time/></activity><activity><Location>Exam Diet</Location><Activity>Paper Name</Activity><Description>Hours:Minutes</Description><time><Monday/></time></activity><activity><Location>Main Exam Diet S1
+(December)</Location><Activity/><Description>2:00</Description><time><Monday/></time></activity><activity><Location/><time/></activity><activity><Location/><time/></activity><activity><Location>Delivery period: 2012/13 Semester
+1, Part-year visiting students only (VV1) 
+</Location><Activity>Learn enabled:  No</Activity><Description>Quota:  None</Description><time/></activity><activity><Location>Location</Location><Activity>Activity</Activity><Description>Description</Description><time><Monday>Monday</Monday><Tuesday>Tuesday</Tuesday><Wednesday>Wednesday</Wednesday><Thursday>Thursday</Thursday><Friday>Friday</Friday></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday>14:00 - 14:50</Tuesday><Wednesday/><Thursday/><Friday/></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday/><Wednesday/><Thursday/><Friday>14:00 - 14:50</Friday></time></activity><first_class>Week 1, Tuesday, 14:00 - 14:50,
+Zone: Central. LT4 7 Bristo Square</first_class><exam_info><exam><exam_diet>Main Exam Diet S1
+(December)</exam_diet><paper_name/><duration>2:00</duration></exam></exam_info></delivery_info><learning_outcomes>By taking this course, students should be able to:
+
+- Explain the source coding and noisy channel theorems and describe
+their implications for applications covered in lectures.
+- Compute information theoretic quantities, construct bounds and
+describe+implement algorithms involving high-dimensional
+probability distributions.
+- Describe the techniques covered in the course: identify their
+limitations, discuss their practical merits and design and describe
+alternatives.
+- For a novel data source, communication channel or application,
+identify relevant information theoretic aspects to provide insight
+or suggest useful methods.</learning_outcomes><assessment>Written Examination: 80%
+Assessed Assignments: 20%
+Oral Presentations: 0%
+
+Assessment:
+
+The assessed assignments will test that students are keeping up
+with the material and test an ability to experiment and implement
+codes while solving problems.</assessment><special_arrangements>None</special_arrangements><additional_info><academic_description>Not entered</academic_description><syllabus>-Differential Entropy and information content
+-Source coding theorem
+-Symbol codes, Kraft-McMillan inequality, Huffman codes
+-Stream codes, adaptive models, arithmetic coding
+-Compression in practice
+-Relative Entropy, mutual information, related inequalities
+-Noisy channel coding theorem, channel capacity
+-Error correcting codes
+-Codes robust to erasures
+-Lossy compression
+-Hash codes</syllabus><transferable_skills>Not entered</transferable_skills><reading_list>"Information Theory, Inference and Learning
+Algorithms", David MacKay, CUP, 2003.
+http://www.inference.phy.cam.ac.uk/mackay/itila/book.html
+Elements of Information Theory, 2nd Edition, Cover and Thomas,
+Wiley 2006</reading_list><study_abroad>Not entered</study_abroad><study_pattern>Lectures 20
+Tutorials 6
+Timetabled Laboratories 0
+Non-timetabled Assessed Assignments 20
+Private Study/Other 54
+Total 100</study_pattern><keywords>Not entered</keywords></additional_info><contacts><course_organiser>Dr Iain Murray
+Tel: (0131 6)51 9078
+Email: I.Murray@ed.ac.uk</course_organiser><course_secretary>Miss Kate Weston
+Tel: (0131 6)50 2701
+Email: Kate.Weston@ed.ac.uk</course_secretary></contacts></course>

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<course xmlns:h="http://www.w3.org/1999/xhtml"><title> Bioinformatics 1(INFR11016)</title><outline><school>School of Informatics</school><college>College of Science and Engineering</college><course_type>Standard</course_type><availability>Available to all students</availability><credit_level>SCQF Level 11 (Postgraduate)</credit_level><credits>10</credits><subj_area>Informatics</subj_area><other_subj_area>None</other_subj_area><website>http://www.inf.ed.ac.uk/teaching/courses/bio1</website><gaelic_taught>No</gaelic_taught><c_description>A primary requisite for relevant, and
+efficient, research in Bioinformatics is that scientists from
+both
+fields (biology and informatics) are involved, or consulted. Team
+work can only be successful if all
+parties have a basic ground knowledge of the respective other field
+and, most importantly, that they can
+communicate with each other.
+
+The aims of the course are to help you overcome both of these
+difficulties in your future careers. The course
+will cover topics that include core biology concepts that relate to
+bioinformatics, biological data and their
+source and structure as well as common tools for their
+analysis.
+
+The course will also involve group-based practical work on using
+and developing bioinformatics solutions.</c_description></outline><entry_requirements><prerequisites/><corequisites/><restrictions/><other_requirements>For Informatics PG and final year MInf students
+only, or by special permission of the School. Parts of this course
+assume a basic knowledge in biology beyond general high school
+standards (i.e. is suitable for everyone with a University
+education in a biology-related field).
+
+Students with a higher education in a biology-related field can ask
+to be exempted from the first half of the course (excluding
+assessed coursework and exam).</other_requirements><additional_costs>None</additional_costs></entry_requirements><vs_info><prerequisites>None</prerequisites><visit_students>Yes</visit_students></vs_info><delivery_info><delivery_period> 2012/13 Semester1, Available to all students (SV1) </delivery_period><learn_enabled>  No</learn_enabled><quota>  None</quota><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday/><Wednesday/><Thursday/><Friday>14:00 - 15:50</Friday></time></activity><first_class>Week 1, Friday, 14:00 - 15:50,
+Zone: Central. 5.05 Appleton Tower</first_class><exam_info><exam><exam_diet>Main Exam Diet S1
+(December)</exam_diet><paper_name>Bioinformatics 1</paper_name><duration>2:00</duration></exam></exam_info></delivery_info><learning_outcomes>1. Communicate about essential and modern biology and how it
+relates to Informatics
+
+2. Describe basic biotechnology in the context of its underlying
+theoretical basis with an emphasis on the technologies routinely
+used in modern biological sciences.
+
+3. Implement a suite of core bioinformatics services and describe
+their application.</learning_outcomes><assessment>Written Examination 70
+Assessed Assignments 30
+Oral Presentations 0
+
+Assessment
+Coursework is assessed though two reports on using/deploying the
+students own bioinformatics services and the remainder through a
+final examination.
+
+If delivered in semester 1, this course will have an option for
+semester 1 only visiting undergraduate students, providing
+assessment prior to the end of the calendar year.</assessment><special_arrangements>None</special_arrangements><additional_info><academic_description>Not entered</academic_description><syllabus>The course will cover the following:
+
+Essential Biology
+* DNA/proteins
+* Evolution
+* Chromosomes and Cells
+* Molecular structures
+
+Note that students with a higher education in biology can be
+exempted from this part of the course
+
+Modern Biology
+* Computational assembly of genomic sequence (including a site
+visit to see automated sequencing technology at work)
+* Expression profiling (including a site visit to the Scottish
+Centre for Genomics and Informatics Technology, GTI)
+* Polymorphisms and Phylogenetics (e.g. RFLP)
+* Structure Determination (Crystallography/NMR)
+* Proteomics (various techniques)
+
+There will be one written exercise (short essay) which will carry
+20% of the course marks; the exam will carry 80%.
+
+Relevant QAA Computing Curriculum Sections: Databases, Developing
+Technologies</syllabus><transferable_skills>Not entered</transferable_skills><reading_list>Artifical Intelligence and Molecular Biology -
+Chapter 1. Molecular Biology for Computer Scientists.
+http://www.aaai.org//Library/Books/Hunter/01-Hunter.pdf, * L.Hunter
+(1999).
+Dealing with Genes. University Science Books. ISBN 0-935702-69-5,
+P. Berg &amp; M. Singer (1992),
+* G.M. Cooper (2000). The Cell: A Molecular Approach. ASM
+Press
+Life - The Science of Biology, Volume 1, The Cell and Heredity,
+Pruves, Orians, Heller &amp; Sadava</reading_list><study_abroad>Not entered</study_abroad><study_pattern>Lectures 10
+Tutorials 0
+Timetabled Laboratories 10
+Non-timetabled assessed assignments 30
+Private Study/Other 50
+Total 100</study_pattern><keywords>Not entered</keywords></additional_info><contacts><course_organiser>Dr Iain Murray
+Tel: (0131 6)51 9078
+Email: I.Murray@ed.ac.uk</course_organiser><course_secretary>Miss Kate Weston
+Tel: (0131 6)50 2701
+Email: Kate.Weston@ed.ac.uk</course_secretary></contacts></course>

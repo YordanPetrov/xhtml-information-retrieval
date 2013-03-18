@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<course xmlns:h="http://www.w3.org/1999/xhtml"><title> Reinforcement Learning(INFR11010)</title><outline><school>School of Informatics</school><college>College of Science and Engineering</college><course_type>Standard</course_type><availability>Available to all students</availability><credit_level>SCQF Level 11 (Postgraduate)</credit_level><credits>10</credits><subj_area>Informatics</subj_area><other_subj_area>None</other_subj_area><website>http://www.inf.ed.ac.uk/teaching/courses/rl</website><gaelic_taught>No</gaelic_taught><c_description>This module covers a range of adaptive
+learning systems, in particular reinforcement learning and
+unsupervised methods, particularly as used in RL systems. By the
+end of the module the student should have a grasp of modern
+learning techniques and the issues involved in dealing with
+real-world data. The main techniques covered in the course are
+basic reinforcement learning, dynamic programming, Monte Carlo
+methods, Q-learning, function approximation, unsupervised and
+constructive methods, radial basis and other local functions,
+classifier systems as compared to RL systems.</c_description></outline><entry_requirements><prerequisites/><corequisites>It is RECOMMENDED that students also take Natural Computing
+(INFR09038)</corequisites><restrictions/><other_requirements>For Informatics PG and final year MInf students
+only, or by special permission of the School. Students should be
+familiar with the mathematical concepts therein, particularly
+vectors and matrices, partial differentiation, and some
+probability.</other_requirements><additional_costs>None</additional_costs></entry_requirements><vs_info><prerequisites>None</prerequisites><visit_students>Yes</visit_students></vs_info><delivery_info><delivery_period> 2012/13 Semester2, Available to all students (SV1) </delivery_period><learn_enabled>  No</learn_enabled><quota>  None</quota><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday>12:10 - 13:00</Tuesday><Wednesday/><Thursday/><Friday/></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday/><Wednesday/><Thursday/><Friday>12:10 - 13:00</Friday></time></activity><first_class>Week 1, Tuesday, 12:10 - 13:00,
+Zone: Central. Lecture Theatre 4, 7 Bristo Square</first_class><exam_info/></delivery_info><learning_outcomes>1 - Knowledge of basic and advanced reinforcement learning
+techniques.
+2 - Insight into the problems involved in applying these techniques
+to deal with real world data, and how to overcome those
+problems.
+3 - Appreciation and identification of suitable learning tasks to
+which these learning techniques can be applied
+4 - Ability to evaluate how effective a particular learning
+procedure has been -- internal indicators of learning success vs.
+actual behaviour of the learner.
+5 - Use and writing of Matlab programs, ability to set up and run
+computational experiments to produce statistically sound
+results
+6 - Formulation of problems, evaluation of results from the
+student's own experiments and those presented in some cases in the
+research literature.</learning_outcomes><assessment>Written Examination 80
+Assessed Assignments 20
+Oral Presentations 0
+
+Assessment
+Two assignments are set, each accounting for 10% of the overall
+mark. Typically they require programming a learning system or
+experimenting with an existing system, using MATLAB.
+
+If delivered in semester 1, this course will have an option for
+semester 1 only visiting undergraduate students, providing
+assessment prior to the end of the calendar year.</assessment><special_arrangements>None</special_arrangements><additional_info><academic_description>Not entered</academic_description><syllabus>The main topics to be covered are some or all of
+the following (there are some changes from year to year)
+* Reinforcement learning framework
+* Bandit problems and action selection
+* Dynamic programming methods
+* Monte-Carlo methods
+* Temporal difference methods
+* Q-learning and eligibility traces
+* Environment modelling
+* Function approximation for generalisation
+* Actor-critic, applications
+* Planning in the RL context
+* Unsupervised, self-organising networks and RL
+* Constructive methods - nets that grow
+* Evaluating performance
+
+Relevant QAA Computing Curriculum Sections: Artificial
+Intelligence, Data Structures and Algorithms, Intelligent
+Information Systems Technologies, Simulation and Modelling</syllabus><transferable_skills>Not entered</transferable_skills><reading_list># Reinforcement Learning. An Introduction. Richard
+S. Sutton and Andrew G. Barto. MIT Press, Cambridge MA, 1998.
+# Other material as handouts or on web page</reading_list><study_abroad>Not entered</study_abroad><study_pattern>Lectures 20
+Tutorials 0
+Timetabled Laboratories 0
+Non-timetabled assessed assignments 25
+Private Study/Other 55
+Total 100</study_pattern><keywords>Not entered</keywords></additional_info><contacts><course_organiser>Dr Iain Murray
+Tel: (0131 6)51 9078
+Email: I.Murray@ed.ac.uk</course_organiser><course_secretary>Miss Kate Weston
+Tel: (0131 6)50 2701
+Email: Kate.Weston@ed.ac.uk</course_secretary></contacts></course>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<course xmlns:h="http://www.w3.org/1999/xhtml"><title> Informatics 1 - FunctionalProgramming (INFR08013)</title><outline><school>School of Informatics</school><college>College of Science and Engineering</college><course_type>Standard</course_type><availability>Available to all students</availability><credit_level>SCQF Level 8 (Year 1 Undergraduate)</credit_level><credits>10</credits><subj_area>Informatics</subj_area><other_subj_area>None</other_subj_area><website>http://www.inf.ed.ac.uk/teaching/courses/inf1/fp/</website><gaelic_taught>No</gaelic_taught><c_description>An introduction to the concepts of
+programming, using a functional programming language. Students
+learn to solve small-scale problems succinctly and at an abstract
+level without being bogged down in details.</c_description></outline><entry_requirements><prerequisites/><corequisites>Students MUST also take: Informatics 1 -
+Computation and Logic (INFR08012)</corequisites><restrictions/><other_requirements>SCE H-grade Mathematics or equivalent is
+desirable.</other_requirements><additional_costs>None</additional_costs></entry_requirements><vs_info><prerequisites>None</prerequisites><visit_students>Yes</visit_students></vs_info><delivery_info><delivery_period> 2012/13 Semester1, Available to all students (SV1) </delivery_period><learn_enabled>  No</learn_enabled><quota>  None</quota><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday>14:00 - 14:50</Monday><Tuesday/><Wednesday/><Thursday/><Friday/></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday>11:10 - 12:00</Tuesday><Wednesday/><Thursday/><Friday/></time></activity><first_class>Week 2, Monday, 14:00 - 14:50,
+Zone: Central. Teviot LT Medical School Teviot</first_class><exam_info><exam><exam_diet>Main Exam Diet S1
+(December)</exam_diet><paper_name/><duration>2:00</duration></exam><exam><exam_diet>Resit Exam Diet (August)</exam_diet><paper_name/><duration>2:00</duration></exam></exam_info></delivery_info><learning_outcomes>1 - Solve simple programming tasks (for example, convert a
+number into a string for the corresponding roman numeral).
+2 - Define appropriate data types (for example, to represent parse
+trees for arithmetic expressions).
+3 - Perform case analysis, use recursion (for example, evaluate a
+parse tree for an arithmetic expression to yield a value).
+4 - Read and write programs that use basic list processing
+functions (nil, cons, append, length, take, drop, zip,
+concat).
+5 - Read and write programs that use list comprehensions and
+higher-order functions (map, filter, fold).
+6 - Choose appropriate decompositions of problems to create a
+program to solve that problem.
+7 - Compose a functional program from suitable function
+definitions, including their types.
+8 - Document programs effectively.
+9 - Apply basic techniques to test and debug programs.</learning_outcomes><assessment>Written Examination 90
+Assessed Assignments 10
+Oral Presentations 0
+
+Assessment
+Formative assessment will be used to provide feedback and guidance
+to students and will take the form of quizzes, exercise sheets,
+practical exercises and coursework assignments, covering areas from
+across the syllabus. A summatively assessed class test (worth 10%
+of the final mark) will be held mid semester and will test students
+basic programming competence.
+</assessment><special_arrangements>None</special_arrangements><additional_info><academic_description>Not entered</academic_description><syllabus>An introduction to the concepts of programming
+using a functional programming language.
+
+Relevant QAA Computing Curriculum Sections: to be confirmed</syllabus><transferable_skills>Not entered</transferable_skills><reading_list>The Craft of Functional Programming, 2nd edition,
+Simon Thompson, Haskell, Addison Wesley, 1999
+Programming in Haskell, Graham Hutton
+The Haskell School of Expression, Paul Hudak</reading_list><study_abroad>Not entered</study_abroad><study_pattern>Lectures 20
+Tutorials 10
+Timetabled Laboratories 0
+Non-timetabled assessed assignments 0
+Private Study/Other 70
+Total 100</study_pattern><keywords>Not entered</keywords></additional_info><contacts><course_organiser>Mr Paul Anderson
+Tel: (0131 6)51 3241
+Email: dcspaul@inf.ed.ac.uk</course_organiser><course_secretary>Ms Kirsten Belk
+Tel: (0131 6)50 5194
+Email: kbelk@exseed.ed.ac.uk</course_secretary></contacts></course>

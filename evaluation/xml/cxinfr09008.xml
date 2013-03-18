@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<course xmlns:h="http://www.w3.org/1999/xhtml"><title> Computability andIntractability (INFR09008)</title><outline><school>School of Informatics</school><college>College of Science and Engineering</college><course_type>Standard</course_type><availability>Available to all students</availability><credit_level>SCQF Level 9 (Year 3 Undergraduate)</credit_level><credits>10</credits><subj_area>Informatics</subj_area><other_subj_area>None</other_subj_area><website>http://www.inf.ed.ac.uk/teaching/courses/ci</website><gaelic_taught>No</gaelic_taught><c_description>The course centres around the
+so-called Church-Turing Thesis which proposes that each one of a
+variety of different formal systems adequately captures the
+intuitive concept of (effective) computability. This thesis implies
+that by studying any one of these systems, for example Turing
+machines, we can learn about the inherent theoretical limitations
+of computers. If a problem cannot be solved by a Turing machine,
+then there is no computable solution to it at all.
+
+Not all the computational problems which can be solved in principle
+can be solved in practice: the computational resources required
+(time or space) may be prohibitive. This observation motivates the
+study of resource-bounded computation. Having accepted an extended
+version of the Church-Turing thesis (that the computationally
+tractable problems are those which can be efficiently solved by a
+Turing machine) we are led inevitably to conclude the existence of
+natural problems which can be solved in principle but not within
+any reasonable resource bound.
+
+The fundamental concepts and techniques encountered in this course
+resonate around the whole of Computer Science and indeed beyond:
+effective procedures and decidability, simulation methods, machine
+encodings and universality, diagonalization arguments, and
+reductions between problems.</c_description></outline><entry_requirements><prerequisites/><corequisites/><restrictions/><other_requirements>Successful completion of Year 2 of an Informatics
+Single or Combined Degree, or equivalent by permission of the
+School. This course also assumes that students are comfortable with
+mathematical notation, definitions, and proofs using basic
+techniques including induction.</other_requirements><additional_costs>None</additional_costs></entry_requirements><vs_info><prerequisites>None</prerequisites><visit_students>Yes</visit_students></vs_info><delivery_info><delivery_period> 2012/13 Semester1, Available to all students (SV1) </delivery_period><learn_enabled>  No</learn_enabled><quota>  None</quota><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday>09:00 - 09:50</Monday><Tuesday/><Wednesday/><Thursday/><Friday/></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday/><Wednesday/><Thursday>09:00 - 09:50</Thursday><Friday/></time></activity><activity><Location>First Class</Location><Activity>Week 1, Thursday, 09:00 - 10:50,
+Zone: Central. 2.01 10 BP</Activity><time/></activity><activity><Location>Exam Information</Location><time/></activity><activity><Location>Exam Diet</Location><Activity>Paper Name</Activity><Description>Hours:Minutes</Description><time><Monday/></time></activity><activity><Location>Main Exam Diet S2
+(April/May)</Location><Activity/><Description>2:00</Description><time><Monday/></time></activity><activity><Location>Resit Exam Diet (August)</Location><Activity/><Description>2:00</Description><time><Monday/></time></activity><activity><Location/><time/></activity><activity><Location/><time/></activity><activity><Location>Delivery period: 2012/13 Semester
+1, Part-year visiting students only (VV1) 
+</Location><Activity>Learn enabled:  No</Activity><Description>Quota:  None</Description><time/></activity><activity><Location>Location</Location><Activity>Activity</Activity><Description>Description</Description><time><Monday>Monday</Monday><Tuesday>Tuesday</Tuesday><Wednesday>Wednesday</Wednesday><Thursday>Thursday</Thursday><Friday>Friday</Friday></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday>09:00 - 09:50</Monday><Tuesday/><Wednesday/><Thursday/><Friday/></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday/><Wednesday/><Thursday>09:00 - 09:50</Thursday><Friday/></time></activity><first_class>Week 1, Thursday, 09:00 - 10:50,
+Zone: Central. 2.01 10 BP</first_class><exam_info><exam><exam_diet>Main Exam Diet S1
+(December)</exam_diet><paper_name/><duration>2:00</duration></exam></exam_info></delivery_info><learning_outcomes>1 - Discuss the fundamental nature of computation as a process
+(Turing's Thesis).
+2 - Discuss the limits to computing both in absolute terms
+(unsolvable problems) and practical terms (intractable
+problems).
+3 - Distinguish different types of languages (recursively
+enumerable, recursive etc.).
+4 - Demonstrate the solvability of a given problem both in informal
+as well as formal terms (use of Turing machines).
+5 - Demonstrate the unsolvability of a given problem both in
+informal as well as formal terms (use of reductions).
+6 - Discuss the classification of solvable problems into tractable
+versus intractable ones (P versus NP).
+7 - Judge when a problem is likely to be intractable.
+8 - Discuss the notion of polynomial time reduction and its
+relevance to classifying the relative complexity of problems.
+9 - Demonstrate the likely intractability of a given problem by
+relating it to other known problems (use of polynomial time
+reductions).</learning_outcomes><assessment>Written Examination 100
+Assessed Assignments 0
+Oral Presentations 0
+
+Assessment
+via Written Examination.
+
+If delivered in semester 1, this course will have an option for
+semester 1 only visiting undergraduate students, providing
+assessment prior to the end of the calendar year.</assessment><special_arrangements>None</special_arrangements><additional_info><academic_description>Not entered</academic_description><syllabus>* Finite state machines: Brief reminder of a model
+which does not encompass the intuitive notion of effective
+procedure.
+* Turing machines: Definition; some programming techniques and
+example machines; variants of the Turing machine and their
+equivalence.
+* The Church-Turing Thesis: Empirical evidence for the Thesis;
+equivalence of Turing machines to other models of computation, both
+simpler (two-register machines) and more complex (models of
+computation which are akin to real computers). Overview of the
+basic ideas; proofs are supplied in appendices to the course
+notes.
+* Universal machines: Encoding Turing machines; a universal Turing
+machine.
+* Decidability and partial decidability: The Halting Problem;
+reductions between problems.
+* Nondeterministic Turing machines: Definition and equivalence to
+deterministic machines.
+* Resource bounded computation: The class P and its interpretation
+as the class of computationally tractable decision problems; the
+class NP and its interpretation as the class of search problems
+with efficiently verifiable solutions.
+* NP-completeness: Cook's theorem; examples of problems which are
+complete for NP.
+* Connections with Logic: Brief introduction to first order and
+second order logic and discussion of how the ideas relate to
+complexity classes, mainly the NP-complete problems.
+
+Relevant QAA Computing Curriculum Sections: Theoretical
+Computing</syllabus><transferable_skills>Not entered</transferable_skills><reading_list>* C.H. Papadimitriou, Computational Complexity,
+Addison-Wesley 1994. Useful for those who intend to progress to the
+CS4 Computational Complexity module. Includes good discussion of
+logic and its connections to computability. An excellent
+introduction to most of the concerns of modern day
+complexity.
+* J.E. Hopcroft, R. Motwani and J.D. Ullman, Introduction to
+Automata Theory, Languages and Computation, 3rd edition,
+Addison-Wesley 2007. Contains material relevant to this module.
+Also proves lower bounds for various problems (e.g., ones connected
+with regular expressions).
+* M. Minsky, Computation: Finite and Infinite Machines,
+Prentice-Hall 1972. An excellent book and strong on motivation.
+Unfortunately, it is now only available as an expensive hardback.
+There are some copies in the reserve section of the JCMB
+library.
+* M.R. Garey and D. S. Johnson, Computers and Intractability: A
+Guide to the Theory of NP-Completeness, Freeman, 1979. A classic
+book, strong on motivation covering the latter parts of the module.
+A must for those who want to know more as well as the origins of
+many of the results and ideas.</reading_list><study_abroad>Not entered</study_abroad><study_pattern>Lectures 20
+Tutorials 8
+Timetabled Laboratories 0
+Non-timetabled assessed assignments 0
+Private Study/Other 72
+Total 100</study_pattern><keywords>Not entered</keywords></additional_info><contacts><course_organiser>Mr Vijayanand Nagarajan
+Tel: (0131 6)51 3440
+Email: vijay.nagarajan@ed.ac.uk</course_organiser><course_secretary>Mrs Victoria Swann
+Tel: (0131 6)51 7607
+Email: Vicky.Swann@ed.ac.uk</course_secretary></contacts></course>

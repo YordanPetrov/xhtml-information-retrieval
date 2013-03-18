@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<course xmlns:h="http://www.w3.org/1999/xhtml"><title> Topics in CognitiveModelling (Level 10) (INFR10050)</title><outline><school>School of Informatics</school><college>College of Science and Engineering</college><course_type>Standard</course_type><availability>Available to all students</availability><credit_level>SCQF Level 10 (Year 4 Undergraduate)</credit_level><credits>10</credits><subj_area>Informatics</subj_area><other_subj_area>None</other_subj_area><website>http://www.inf.ed.ac.uk/teaching/courses/tcm/</website><gaelic_taught>No</gaelic_taught><c_description>The aim of this course is to expose
+students to a variety of cognitive models and to discuss competing
+models for similar problems, i.e. to explore a small number of
+cognitive domains in depth rather than to aim for broad coverage,
+as in CCS. The course will focus especially on how to evaluate and
+compare models against each other and experimental data. Students
+will be expected to present and critique classic and recent
+research articles from the cognitive modelling literature, chosen
+from a list provided by the instructor.</c_description></outline><entry_requirements><prerequisites/><corequisites/><restrictions>Students MUST NOT also be taking Topics in Cognitive
+Modelling (Level 11) (INFR11086)</restrictions><other_requirements>For PG and final year students in Informatics and
+PPLS only, or by special permission of the School. This course
+requires familiarity with cognitive and linguistic issues and basic
+probability theory, as evidenced by having taken, e.g.,
+[Computational Cognitive Science or Computational Cognitive
+Neuroscience or Cognitive Psychology] and [Advanced NLP or
+Foundations of NLP].</other_requirements><additional_costs>None</additional_costs></entry_requirements><vs_info><prerequisites>None</prerequisites><visit_students>No</visit_students></vs_info><delivery_info><delivery_period> 2012/13 Semester2, Available to all students (SV1) </delivery_period><learn_enabled>  No</learn_enabled><quota>  None</quota><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday>10:00 - 10:50</Tuesday><Wednesday/><Thursday/><Friday/></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday/><Wednesday/><Thursday/><Friday>10:00 - 10:50</Friday></time></activity><first_class>Week 1, Tuesday, 10:00 - 10:50,
+Zone: Central. Lecture Theatre 5, 7 Bristo Square</first_class><exam_info/></delivery_info><learning_outcomes>- Demonstrate understanding of classic and current articles on
+cognitive modelling by summarizing their central ideas and/or
+results.
+- Demonstrate understanding of the relationship between
+computational models and psychological theories, by being able to
+critically assess the psychological adequacy of a given
+model.
+- Compare and contrast the strengths and weaknesses of different
+models of the same behaviour.
+- Synthesize information from several papers on the same topic and
+create a coherent presentation on that topic.</learning_outcomes><assessment>Written Examination 0
+Assessed Assignments 80
+Oral Presentations 20
+
+Assessment
+The assessment will be based on several components:
+- Oral presentation (20%): students will (in pairs or small groups,
+depending on course enrolment) choose 2-3 papers on a given topic
+to present (topics and papers will be selected from a list provided
+by the instructor; students may choose a different topic if
+approved by the instructor).
+- Brief paper responses (25%): For each class other than the one
+with their own presentation, students will submit a brief (1
+paragraph) summary of the main content of one paper presented that
+day, as well as any comments or questions arising from their
+reading. Responses will be due on the day of each paper's oral
+presentation, so that those students who have written responses can
+serve as additional discussants of paper.
+- Essay (55%): students will choose an area of cognitive modelling
+and write an essay based on one or more articles approved by the
+instructor.</assessment><special_arrangements>None</special_arrangements><additional_info><academic_description>Not entered</academic_description><syllabus>The syllabus consists of two parts. In the first
+part, the instructor will provide introductory and background
+material, as well as information on how to develop skills in
+reading scientific papers and
+presenting them. In the second part, students will present papers
+on a variety of cognitive models from the literature, chosen from a
+list provided by the instructor (or approved by the
+instructor).
+
+Topics covered by the instructor will include
+- Introduction and overview of modelling
+approaches/philosophies.
+- Model comparison and evaluation methods.
+- Necessary background in probability and information theory.
+- How to read, analyse, and present research papers in cognitive
+modelling (including general oral presentation skills).
+- Example presentation(s) of papers.
+
+Topics available for students to present will vary depending on the
+instructor, but will likely emphasize language learning and
+processing. Other topics may include visual processing, cognitive
+development, categorization, memory, decision-making, reasoning,
+and motor control. For specific topics, see the course web page or
+contact the instructor directly.</syllabus><transferable_skills>Not entered</transferable_skills><reading_list>There is no main textbook for the course. Readings
+will be chosen from classic and current research papers on
+cognitive modelling.</reading_list><study_abroad>Not entered</study_abroad><study_pattern>Lectures: 20
+Tutorials: 0
+Timetabled Laboratories: 0
+Non-timetabled assessed assignments: 50
+Private Study/Other: 30</study_pattern><keywords>Not entered</keywords></additional_info><contacts><course_organiser>Dr Mary Cryan
+Tel: (0131 6)50 5153
+Email: mcryan@inf.ed.ac.uk</course_organiser><course_secretary>Miss Kate Weston
+Tel: (0131 6)50 2701
+Email: Kate.Weston@ed.ac.uk</course_secretary></contacts></course>

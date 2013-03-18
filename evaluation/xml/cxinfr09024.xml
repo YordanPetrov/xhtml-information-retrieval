@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<course xmlns:h="http://www.w3.org/1999/xhtml"><title> Software Testing(INFR09024)</title><outline><school>School of Informatics</school><college>College of Science and Engineering</college><course_type>Standard</course_type><availability>Available to all students</availability><credit_level>SCQF Level 9 (Year 3 Undergraduate)</credit_level><credits>10</credits><subj_area>Informatics</subj_area><other_subj_area>None</other_subj_area><website>http://www.inf.ed.ac.uk/teaching/courses/st</website><gaelic_taught>No</gaelic_taught><c_description>This module is intended to provide
+in-depth coverage of software testing further to develop the
+introductory material covered in Inf2C. The goal of the course is
+to provide students with the skill to select and apply a testing
+strategy and testing techniques that are appropriate to a
+particular software system or component. In addition the student
+will become a capable user of test tools; will be able to assess
+the effectiveness of their testing activity; and will be able
+provide evidence to justify their evaluation. The course will be
+supported by two practical exercises involving the development of
+appropriate tests and the application of a range of testing tools.
+This course is based on the IEEE Software Engineering 2004 Software
+Testing syllabus.</c_description></outline><entry_requirements><prerequisites>Students MUST have passed: ( Informatics 2C
+- Introduction to Computer Systems (INFR08018) OR Informatics 2C
+- Introduction to Software Engineering (INFR08019)) OR
+Informatics Research
+Review (INFR11034)</prerequisites><corequisites/><restrictions/><other_requirements>Successful completion of Year 2 of an Informatics
+Single or Combined Degree, or equivalent by permission of the
+School.</other_requirements><additional_costs>None</additional_costs></entry_requirements><vs_info><prerequisites>None</prerequisites><visit_students>Yes</visit_students></vs_info><delivery_info><delivery_period> 2012/13 Semester2, Available to all students (SV1) </delivery_period><learn_enabled>  No</learn_enabled><quota>  None</quota><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday/><Wednesday/><Thursday/><Friday>12:10 - 13:00</Friday></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday>12:10 - 13:00</Tuesday><Wednesday/><Thursday/><Friday/></time></activity><first_class>Week 1, Tuesday, 12:10 - 13:00,
+Zone: Central. Lecture Theatre 1, 7 Bristo Square</first_class><exam_info><exam><exam_diet>Main Exam Diet S2
+(April/May)</exam_diet><paper_name/><duration>2:00</duration></exam><exam><exam_diet>Resit Exam Diet (August)</exam_diet><paper_name/><duration>2:00</duration></exam></exam_info></delivery_info><learning_outcomes>1 - Analyze requirements to determine appropriate testing
+strategies.
+2 - Design and implement comprehensive test plans
+3 - Instrument code appropriately for a chosen test technique
+4 - Apply a wide variety of testing techniques in an effective and
+efficient manner
+5 - Compute test coverage and yield according to a variety of
+criteria
+6 - Use statistical techniques to evaluate the defect density and
+the likelihood of faults.
+7 - Evaluate the limitations of a given testing process and provide
+a succinct summary of those limitations
+8 - Conduct reviews and inspections</learning_outcomes><assessment>Written Examination 75
+Assessed Assignments 25
+Oral Presentations 0
+
+Assessment
+The coursework will comprise two, equally weighted, assessed
+practicals the first will concentrate on unit and integration
+testing the second on acceptance and performance testing. Both
+practicals will involve working with a reasonably large sample of
+code.
+
+If delivered in semester 1, this course will have an option for
+semester 1 only visiting undergraduate students, providing
+assessment prior to the end of the calendar year.</assessment><special_arrangements>None</special_arrangements><additional_info><academic_description>Not entered</academic_description><syllabus># Testing techniques and principles: Defects vs.
+failures, equivalence classes, boundary testing.
+# Types of defects.
+# Black-box vs. Structural testing.
+# Testing strategies: Unit testing, integration testing, profiling,
+test driven development.
+# State based testing; configuration testing; compatibility
+testing; web site testing.
+# Alpha, beta, and acceptance testing.
+# Coverage criteria.
+# Test instrumentation and tools.
+# Developing test plans.
+# Managing the testing process.
+# Problem reporting, tracking, and analysis.
+
+Relevant QAA Computing Curriculum Sections: Software
+Engineering</syllabus><transferable_skills>Not entered</transferable_skills><reading_list>* Mauro Pezzè and Michal Young, Software
+Testing and Analysis, John Wiley &amp; Sons, 2008
+* Glenford J. Myers, et al, The Art of Software Testing , John
+Wiley &amp; Sons Inc, 2004
+* Scott Loveland et al, Software Testing Techniques: Finding the
+Defects That Matter , Charles River Media, 2004
+* R. Patton, Software Testing, SAMS, 2005
+* C Kaner, J Bach &amp; B Pettichord Lessons Learned in Software
+Testing: A Context-Driven Approach, Wiley Europe, 2002
+* There is also extensive supporting material online which will be
+used in teaching</reading_list><study_abroad>Not entered</study_abroad><study_pattern>Lectures 20
+Tutorials 8
+Timetabled Laboratories 0
+Non-timetabled assessed assignments 40
+Private Study/Other 32
+Total 100</study_pattern><keywords>Not entered</keywords></additional_info><contacts><course_organiser>Mr Vijayanand Nagarajan
+Tel: (0131 6)51 3440
+Email: vijay.nagarajan@ed.ac.uk</course_organiser><course_secretary>Mrs Victoria Swann
+Tel: (0131 6)51 7607
+Email: Vicky.Swann@ed.ac.uk</course_secretary></contacts></course>

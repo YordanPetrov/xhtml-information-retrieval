@@ -5,7 +5,7 @@
   <xsl:variable name="ws" select="'&#13;&#10;&#09;'"/>
   <xsl:variable name="whitespace" select="'  '"/>
 
-  <xsl:variable name="vDicts" select="document('./tables/dict.xml')/dictionary"/>
+  <xsl:variable name="vDicts" select="document('./dict.xml')/dictionary"/>
 
   <xsl:template match="/h:html">
     <!-- <xsl:value-of select="table[position()=-1]"/> -->
@@ -66,8 +66,10 @@
       <xsl:variable name="field" select="h:td[@class='rowhead1']"/>
       <xsl:variable name="field2" select="translate($field, $ws, $whitespace)"/>
       <xsl:variable name="elem_name" select="$vDicts/word[@value=$field2]/@dId"/>
+      <!-- <xsl:if test="not($elem_name)"> -->
       <!-- ### <xsl:value-of select="$field"/> #-# -->
-      <!-- ££<xsl:value-of select="$field2"/>££ -->
+      <!-- ££<xsl:value-of select="$field2"/>££         -->
+      <!-- </xsl:if> -->
       <xsl:element name="{$elem_name}">
         <xsl:value-of select="h:td[@width='85%']"/>       
       </xsl:element>

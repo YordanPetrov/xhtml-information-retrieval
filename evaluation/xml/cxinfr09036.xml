@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<course xmlns:h="http://www.w3.org/1999/xhtml"><title> Agent Based Systems (Level9) (INFR09036)</title><outline><school>School of Informatics</school><college>College of Science and Engineering</college><course_type>Standard</course_type><availability>Available to all students</availability><credit_level>SCQF Level 9 (Year 3 Undergraduate)</credit_level><credits>10</credits><subj_area>Informatics</subj_area><other_subj_area>None</other_subj_area><website>http://www.inf.ed.ac.uk/teaching/courses/abs/</website><gaelic_taught>No</gaelic_taught><c_description>Agent technology has emerged as a new
+area within Artificial Intelligence in the last two decades,
+exploring systems in which it is assumed that the computational
+components are autonomous, and interact with each other in a common
+environment. The aim of this course is to provide a comprehensive
+introduction to agents and multiagent systems. It covers a broad
+range of topics including agent architectures, agent interaction
+and communication, and game-theoretic methods and models of
+distributed rational decision making. It lays the foundations for
+advanced courses such as Multi-Agent Semantic Web Systems and
+Algorithmic Game Theory and its Applications.</c_description></outline><entry_requirements><prerequisites>Students MUST have passed: Informatics 2D -
+Reasoning and Agents (INFR08010)</prerequisites><corequisites/><restrictions>Students MUST NOT also be taking Agent Based Systems
+(Level 10) (INFR10049)</restrictions><other_requirements>Successful completion of Year 2 of an Informatics
+Single or Combined Degree, or
+equivalent by permission of the School. Students must also have a
+basic knowledge of probability theory and a good command of
+propositional and first-order logic.</other_requirements><additional_costs>None</additional_costs></entry_requirements><vs_info><prerequisites>None</prerequisites><visit_students>No</visit_students></vs_info><delivery_info><delivery_period> 2012/13 Semester2, Available to all students (SV1) </delivery_period><learn_enabled>  No</learn_enabled><quota>  None</quota><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday>10:00 - 10:50</Monday><Tuesday/><Wednesday/><Thursday/><Friday/></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday/><Wednesday/><Thursday>10:00 - 10:50</Thursday><Friday/></time></activity><first_class>Week 1, Monday, 10:00 - 10:50,
+Zone: Central. Lecture Theatre, Robson Building</first_class><exam_info><exam><exam_diet>Main Exam Diet S2
+(April/May)</exam_diet><paper_name/><duration>2:00</duration></exam><exam><exam_diet>Resit Exam Diet (August)</exam_diet><paper_name/><duration>2:00</duration></exam></exam_info></delivery_info><learning_outcomes>- Describe and discuss different architectures for intelligent
+agents and interaction mechanisms for cooperative and competitive
+settings.
+- Use abstract formal models of agents and agent interactions to
+analyse the properties of concrete designs.
+- Explain the algorithmic and theoretical foundations of agents and
+multiagent systems, with an emphasis on knowledge-based and
+game-theoretic techniques.
+- Be able to model, analyse and critically evaluate distributed
+systems using agent-based abstractions and related concepts.</learning_outcomes><assessment>Written Examination: 100%
+Assessed Assignments: 0%
+Oral Presentations: 0%
+
+Assessment:
+
+A final written exam, no assessed assignments.
+
+</assessment><special_arrangements>None</special_arrangements><additional_info><academic_description>Not entered</academic_description><syllabus>1. Basics
+- Definitions of agency
+- Properties of agents
+
+2. Agent architectures
+- Deductive reasoning agents
+- Practical reasoning
+- Reactive and hybrid agents
+
+3. Agent interaction
+- Agent communication
+- Game-theoretic models of interaction
+
+4. Distributed rational decision making
+- Social choice and voting
+- Coalition formation
+- Resource allocation
+- Bargaining
+- Argumentation
+
+5. Logics for multiagent systems</syllabus><transferable_skills>Not entered</transferable_skills><reading_list>- M. Wooldridge. An Introduction to MultiAgent
+Systems, 2nd edition, John Wiley &amp; Sons, 2009
+- Y. Shoham and K. Leyton-Brown. Multiagent Systems: Algorithmic,
+Game Theoretic and Logical Foundations, Cambridge University Press,
+2009.</reading_list><study_abroad>Not entered</study_abroad><study_pattern>Lectures 20
+Tutorials 8
+Timetabled Laboratories 0
+Non-timetabled Assessed Assignments 0
+Private Study/Other 72
+Total 100
+</study_pattern><keywords>Not entered</keywords></additional_info><contacts><course_organiser>Mr Vijayanand Nagarajan
+Tel: (0131 6)51 3440
+Email: vijay.nagarajan@ed.ac.uk</course_organiser><course_secretary>Mrs Victoria Swann
+Tel: (0131 6)51 7607
+Email: Vicky.Swann@ed.ac.uk</course_secretary></contacts></course>

@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<course xmlns:h="http://www.w3.org/1999/xhtml"><title> Extreme Computing(INFR11088)</title><outline><school>School of Informatics</school><college>College of Science and Engineering</college><course_type>Standard</course_type><availability>Available to all students</availability><credit_level>SCQF Level 11 (Postgraduate)</credit_level><credits>10</credits><subj_area>Informatics</subj_area><other_subj_area>None</other_subj_area><website>http://www.inf.ed.ac.uk/teaching/courses/exc/</website><gaelic_taught>No</gaelic_taught><c_description>Extreme Computing deals with the
+principles, systems and algorithms behind Web-scale problem
+solving. This touches upon the technologies and techniques used by
+companies such as Google, FaceBook and Microsoft, using
+warehouse-scale computing and massive datasets. The course will be
+in three parts: the principles behind extreme computing (cloud
+computing, scaling, performance, privacy etc), supporting
+infrastructure (distributed file systems, replication, web services
+etc) and algorithms (MapReduce, case studies from Natural Language
+Processing, Database query evaluation, machine learning,
+streaming).</c_description></outline><entry_requirements><prerequisites/><corequisites/><restrictions/><other_requirements>Background in programming.</other_requirements><additional_costs>None</additional_costs></entry_requirements><vs_info><prerequisites>None</prerequisites><visit_students>No</visit_students></vs_info><delivery_info><delivery_period> 2012/13 Semester1, Available to all students (SV1) </delivery_period><learn_enabled>  No</learn_enabled><quota>  None</quota><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday>16:10 - 17:00</Monday><Tuesday/><Wednesday/><Thursday/><Friday/></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday/><Wednesday/><Thursday>16:10 - 17:00</Thursday><Friday/></time></activity><activity><Location>First Class</Location><Activity>Week 1, Monday, 16:10 - 17:00,
+Zone: Central. HRB LT Robson Building</Activity><time/></activity><activity><Location>Exam Information</Location><time/></activity><activity><Location>Exam Diet</Location><Activity>Paper Name</Activity><Description>Hours:Minutes</Description><time><Monday/></time></activity><activity><Location>Main Exam Diet S2
+(April/May)</Location><Activity/><Description>2:00</Description><time><Monday/></time></activity><activity><Location/><time/></activity><activity><Location/><time/></activity><activity><Location>Delivery period: 2012/13 Semester
+1, Part-year visiting students only (VV1) 
+</Location><Activity>Learn enabled:  No</Activity><Description>Quota:  None</Description><time/></activity><activity><Location>Location</Location><Activity>Activity</Activity><Description>Description</Description><time><Monday>Monday</Monday><Tuesday>Tuesday</Tuesday><Wednesday>Wednesday</Wednesday><Thursday>Thursday</Thursday><Friday>Friday</Friday></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday>16:10 - 17:00</Monday><Tuesday/><Wednesday/><Thursday/><Friday/></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday>16:10 - 17:00</Tuesday><Wednesday/><Thursday/><Friday/></time></activity><first_class>Week 1, Monday, 16:10 - 17:00,
+Zone: Central. HRB LT Robson Building</first_class><exam_info><exam><exam_diet>Main Exam Diet S1
+(December)</exam_diet><paper_name/><duration>2:00</duration></exam></exam_info></delivery_info><learning_outcomes>- Demonstrate knowledge of the need for extreme computing by
+providing motivating examples of the scale of problems only extreme
+computing can solve.
+
+- Demonstrate knowledge of the infrastructure necessary for extreme
+computing through enumerating different file system designs,
+virtualisation techniques, and fault-tolerance paradigms. In
+particular, the first essay coursework will present the students
+with a large-scale computing problem and ask them to present a
+design using the knowledge acquired from the first part of the
+course (see also detailed syllabus).
+
+- Demonstrate knowledge of cluster-based algorithms for natural
+language processing, database query evaluation, machine learning,
+and data stream processing through the use of the Map/Reduce
+programming paradigm. Specifically, the second assessed piece of
+coursework will test the students' ability to implement large-scale
+data analytics using Map/Reduce.</learning_outcomes><assessment>Assessment Weightings (%)
+
+Written Examination 50
+Assessed Assignments 50
+Oral Presentations 0</assessment><special_arrangements>None</special_arrangements><additional_info><academic_description>Not entered</academic_description><syllabus>The course is to be conceptually split into three
+main areas, with
+each area not necessarily accounting for an equal portion of
+the
+syllabus. The three areas and the material covered in each area are
+as
+follows:
+
+- Background: Motivation for new computing paradigms; introduction
+and differences between cloud and cluster computing; scaling,
+performance, privacy, economics, security, software as
+service.
+
+- Infrastructure: Distributed file systems; virtualisation;
+replication; fault tolerance; concurrent programming; web
+services.
+
+- Algorithms: Hadoop (MapReduce); design and implementation of
+MapReduce programs; dealing with massive amounts of data; case
+studies using natural language processing, database query
+evaluation and machine learning; data stream processing.</syllabus><transferable_skills>Not entered</transferable_skills><reading_list>Data Intensive Text Processing with MacReduce,
+Jimmy Linn &amp; Chris Dyer
+Hadoop: The Definitive Guide, Tom White, O'Reilly Media</reading_list><study_abroad>Not entered</study_abroad><study_pattern>Lectures 20
+Tutorials 0
+Timetabled Laboratories 5
+Non-timetabled assessed assignments 40
+Private Study/Other 35
+Total 100</study_pattern><keywords>Not entered</keywords></additional_info><contacts><course_organiser>Dr Iain Murray
+Tel: (0131 6)51 9078
+Email: I.Murray@ed.ac.uk</course_organiser><course_secretary>Miss Kate Weston
+Tel: (0131 6)50 2701
+Email: Kate.Weston@ed.ac.uk</course_secretary></contacts></course>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<course xmlns:h="http://www.w3.org/1999/xhtml"><title> Parallel Architectures(Level 10) (INFR10016)</title><outline><school>School of Informatics</school><college>College of Science and Engineering</college><course_type>Standard</course_type><availability>Available to all students</availability><credit_level>SCQF Level 10 (Year 4 Undergraduate)</credit_level><credits>10</credits><subj_area>Informatics</subj_area><other_subj_area>None</other_subj_area><website>http://www.inf.ed.ac.uk/teaching/courses/pa</website><gaelic_taught>No</gaelic_taught><c_description>The aims of this course are twofold:
+(a) to investigate the various forms of parallelism found in
+uniprocessors and in multiprocessor and multicomputer systems; (b)
+to explore the issues which arise in these systems in terms of: (i)
+ensuring that programs are executed correctly by the hardware; (ii)
+maximising performance.</c_description></outline><entry_requirements><prerequisites>Students MUST have passed: Computer Architecture
+(INFR09009)</prerequisites><corequisites/><restrictions>Students MUST NOT also be taking Parallel
+Architectures (Level 11) (INFR11024)</restrictions><other_requirements>Successful completion of Year 3 of an Informatics
+Single or Combined Honours Degree, or equivalent by permission of
+the School.</other_requirements><additional_costs>None</additional_costs></entry_requirements><vs_info><prerequisites>None</prerequisites><visit_students>Yes</visit_students></vs_info><delivery_info><delivery_period> 2012/13 Semester2, Available to all students (SV1) </delivery_period><learn_enabled>  No</learn_enabled><quota>  None</quota><activity><Location>No Classes have been defined for
+this Course</Location><time/></activity><first_class>Week 1, Tuesday, 10:00 - 10:50,
+Zone: Central. Lecture Theatre 270, Old College</first_class><exam_info/></delivery_info><learning_outcomes>1 - describe the various forms of parallelism found in modern
+computer systems and the techniques used (a) to ensure that
+programs are executed correctly by parallel hardware (b) to
+maximise performance.
+2 - assess the effectiveness of techniques used to enhance the
+performance of computer systems.
+3 - use web-based simulation models of computer systems to
+investigate hardware/software performance trade-offs.
+4 - record observations of on-line experiments, present this
+information in a variety of formats and draw conclusions from
+it.</learning_outcomes><assessment>Written Examination 75
+Assessed Assignments 25
+Oral Presentations 0
+
+Assessment
+There are three assessed practicals for this module. One of them is
+a paper &amp; pencil exercise concerned with interconnection
+networks while the other two involve using and programming
+simulation models of two different computer systems.
+
+If delivered in semester 1, this course will have an option for
+semester 1 only visiting undergraduate students, providing
+assessment prior to the end of the calendar year.</assessment><special_arrangements>None</special_arrangements><additional_info><academic_description>Not entered</academic_description><syllabus>* Introduction
+Parallelism and Performance
+Parallelism in Software
+
+* Uniprocessor Parallelism
+Vector &amp; SIMD Instructions
+Superscalar and VLIW processors
+
+* Interconnection networks
+Introduction
+Routing Functions
+Dynamic Networks
+Combining Networks
+
+* Multiprocessor &amp; Multicomputer Systems
+Introduction
+Shared Memory Systems
+Directory-based Coherence Protocols
+Memory Consistency
+NUMA Systems
+Message Passing Systems
+
+* Performance &amp; Scalability
+Performance metrics
+Scalability
+
+Relevant QAA Computing Curriculum Sections: Architecture,
+Simulation and Modelling</syllabus><transferable_skills>Not entered</transferable_skills><reading_list>* D.E. Culler &amp; J.P. Singh, Parallel Computer
+Architecture, Morgan Kaufmann, 1999.
+* J.L. Hennessey &amp; D.A. Patterson, Computer Architecture: a
+Quantitative Approach, 4th Edition, Morgan Kaufmann,
+2006.</reading_list><study_abroad>Not entered</study_abroad><study_pattern>Lectures 20
+Tutorials 0
+Timetabled Laboratories 0
+Non-timetabled assessed assignments 25
+Private Study/Other 55
+Total 100</study_pattern><keywords>Not entered</keywords></additional_info><contacts><course_organiser>Dr Mary Cryan
+Tel: (0131 6)50 5153
+Email: mcryan@inf.ed.ac.uk</course_organiser><course_secretary>Miss Kate Weston
+Tel: (0131 6)50 2701
+Email: Kate.Weston@ed.ac.uk</course_secretary></contacts></course>

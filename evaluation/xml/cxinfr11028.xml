@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<course xmlns:h="http://www.w3.org/1999/xhtml"><title> Design and Analysis ofParallel Algorithms (INFR11028)</title><outline><school>School of Informatics</school><college>College of Science and Engineering</college><course_type>Standard</course_type><availability>Available to all students</availability><credit_level>SCQF Level 11 (Postgraduate)</credit_level><credits>10</credits><subj_area>Informatics</subj_area><other_subj_area>None</other_subj_area><website>http://www.inf.ed.ac.uk/teaching/courses/dapa</website><gaelic_taught>No</gaelic_taught><c_description>This module introduces the design
+principles and analysis techniques which enable the creation of
+efficient, scalable and portable algorithms for parallel computers.
+Concrete examples will span a range of application areas and
+architectural models seeking wherever possible to exploit
+commonality through appropriate abstraction.</c_description></outline><entry_requirements><prerequisites/><corequisites/><restrictions/><other_requirements>For Informatics PG and final year MInf students
+only, or by special permission of the School. The following
+mathematics skills are also assumed:
+
+- familiarity with binary numbers, conversion to/from decimal
+- simple facts about and manipulation of logs and
+exponentials
+- O notation, proper definition and intuitive feel
+- summation of simple arithmetic and geometric series
+- matrix multiplication and Gaussian Elimination
+- very simple, neat recurrences, cf. easiest ones in MforInf2
+
+The specific algorithms are not important - what matters is
+experience of working at this level of abstraction.</other_requirements><additional_costs>None</additional_costs></entry_requirements><vs_info><prerequisites>None</prerequisites><visit_students>Yes</visit_students></vs_info><delivery_info><delivery_period> 2012/13 Semester1, Available to all students (SV1) </delivery_period><learn_enabled>  No</learn_enabled><quota>  None</quota><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday>09:00 - 09:50</Monday><Tuesday/><Wednesday/><Thursday/><Friday/></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday/><Wednesday/><Thursday>09:00 - 09:50</Thursday><Friday/></time></activity><activity><Location>First Class</Location><Activity>Week 1, Thursday, 09:00 - 09:50,
+Zone: Central. Rm B1 Forrest hill</Activity><time/></activity><activity><Location>Exam Information</Location><time/></activity><activity><Location>Exam Diet</Location><Activity>Paper Name</Activity><Description>Hours:Minutes</Description><time><Monday/></time></activity><activity><Location>Main Exam Diet S2
+(April/May)</Location><Activity/><Description>2:00</Description><time><Monday/></time></activity><activity><Location/><time/></activity><activity><Location/><time/></activity><activity><Location>Delivery period: 2012/13 Semester
+1, Part-year visiting students only (VV1) 
+</Location><Activity>Learn enabled:  No</Activity><Description>Quota:  None</Description><time/></activity><activity><Location>Location</Location><Activity>Activity</Activity><Description>Description</Description><time><Monday>Monday</Monday><Tuesday>Tuesday</Tuesday><Wednesday>Wednesday</Wednesday><Thursday>Thursday</Thursday><Friday>Friday</Friday></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday>09:00 - 09:50</Monday><Tuesday/><Wednesday/><Thursday/><Friday/></time></activity><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday/><Wednesday/><Thursday>09:00 - 09:50</Thursday><Friday/></time></activity><first_class>Week 1, Thursday, 09:00 - 09:50,
+Zone: Central. Rm B1 Forrest hill</first_class><exam_info><exam><exam_diet>Main Exam Diet S1
+(December)</exam_diet><paper_name/><duration>2:00</duration></exam></exam_info></delivery_info><learning_outcomes>1 - define the structure of, and cost models associated with,
+the PRAM, mesh and hypercube models of parallel computation.
+2 - define the metrics of cost, speed-up and efficiency and use
+these as conceptual tools with which to analyse and discriminate
+between alternative candidate parallel algorithms for given
+problems. They will be able to demonstrate, by the use of
+appropriately chosen examples, the importance of scalability in
+parallel algorithm design.
+3 - explain and, with appropriate use of diagrams, sketch the
+structure and operation of well known parallel algorithms in a
+range of application areas, including sorting, matrix and graph
+based problems.
+4 - apply a range of parallel algorithm design techniques
+(including divide-and-conquer and pipelining) to previously unseen
+problems, in order to create new parallel algorithms, which they
+will be able to describe using an informal mix of pseudocode,
+textual explanation and diagrams.</learning_outcomes><assessment>Written Examination 80
+Assessed Assignments 20
+Oral Presentations 0
+
+Assessment
+Two sets of pencil-and-paper problems.
+
+If delivered in semester 1, this course will have an option for
+semester 1 only visiting undergraduate students, providing
+assessment prior to the end of the calendar year.</assessment><special_arrangements>None</special_arrangements><additional_info><academic_description>Not entered</academic_description><syllabus>* Introduction: Conceptual frameworks for
+parallelism, message passing, shared address space, PRAM. Cost
+models for parallel algorithms. Cost efficiency and scalability.
+Inter-model emulation. Simple examples.
+* Problem solving strategies: Embarrassing parallelism, divide
+&amp; conquer, pipelining, step-by-step parallelisation. Amdahl's
+Law.
+* Useful primitives: Collective communications, reduction,
+prefix.
+* Algorithms in selected problem areas, for example: Sorting
+(bitonic mergesort, hyperquicksort). Matrix oriented algorithms
+(multiplication, solving linear systems). Graph algorithms
+(spanning trees, single source &amp; all-to-all shortest
+paths).
+
+Relevant QAA Computing Curriculum Sections: Concurrency and
+Parallelism, Data Structures and Algorithms</syllabus><transferable_skills>Not entered</transferable_skills><reading_list>V. Kumar, A. Grama, A. Gupta &amp; G. Karypis,
+'Introduction to Parallel Computing: Design and Analysis of
+Algorithms', (2nd Ed), 2003.</reading_list><study_abroad>Not entered</study_abroad><study_pattern>Lectures 20
+Tutorials 0
+Timetabled Laboratories 0
+Non-timetabled assessed assignments 20
+Private Study/Other 60
+Total 100</study_pattern><keywords>Not entered</keywords></additional_info><contacts><course_organiser>Dr Iain Murray
+Tel: (0131 6)51 9078
+Email: I.Murray@ed.ac.uk</course_organiser><course_secretary>Miss Kate Weston
+Tel: (0131 6)50 2701
+Email: Kate.Weston@ed.ac.uk</course_secretary></contacts></course>

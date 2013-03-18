@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<course xmlns:h="http://www.w3.org/1999/xhtml"><title> System Design Project(INFR09032)</title><outline><school>School of Informatics</school><college>College of Science and Engineering</college><course_type>Standard</course_type><availability>Available to all students</availability><credit_level>SCQF Level 9 (Year 3 Undergraduate)</credit_level><credits>20</credits><subj_area>Informatics</subj_area><other_subj_area>None</other_subj_area><website>http://www.inf.ed.ac.uk/teaching/courses/sdp</website><gaelic_taught>No</gaelic_taught><c_description>The System Design Project is intended
+to give students practical experience of (a) building a large scale
+system (b) working as members of a team. The project involves
+applying and combining material from several courses to complete a
+complex design and implementation task. At the end of course each
+group demonstrates its implemented system and gives a formal
+presentation to an audience of the students, supervisors, and
+visitors from industry.</c_description></outline><entry_requirements><prerequisites/><corequisites/><restrictions/><other_requirements>Successful completion of Year 2 of an Informatics
+Single or Combined Degree, or equivalent by permission of the
+School.</other_requirements><additional_costs>None</additional_costs></entry_requirements><vs_info><prerequisites>None</prerequisites><visit_students>No</visit_students></vs_info><delivery_info><delivery_period> 2012/13 Semester2, Not available to visiting students (SS1) </delivery_period><learn_enabled>  No</learn_enabled><quota>  None</quota><activity><Location>Central</Location><Activity>Laboratory</Activity><Description/><time><Monday/><Tuesday/><Wednesday/><Thursday/><Friday>14:00 - 15:50</Friday></time></activity><first_class>First class information not
+currently available</first_class><exam_info/></delivery_info><learning_outcomes>1 - Working as members of a team.
+2 - Planning and monitoring the effort of a project to meet
+milestones and deadlines.
+3 - Designing and implementing a complex and multi-faceted
+system.
+4 - Attempting to achieve a difficult objective within a limited
+time-scale.
+5 - Drawing together knowledge and understanding of wide areas of
+software and hardware systems.
+6 - Demonstrating and presenting the outcome from a practical
+project.
+7 - Documenting the feasibility, design and development of a
+potential product.</learning_outcomes><assessment>Written Examination 0
+Assessed Assignments 90
+Oral Presentations 10
+
+Assessment
+The assessment is based on the achievements of the project work
+described above and its documentation, typically a design
+specification, a feasibility report, a management report and an
+implementation report. Each group member also submits an individual
+document describing his/her contribution to the project.For each
+student, 50% of the marks will be based on the achievements of the
+group and %50 on his or her individual report. Students who make no
+contribution to the work of the group will receive a mark of
+0%.</assessment><special_arrangements>None</special_arrangements><additional_info><academic_description>Not entered</academic_description><syllabus>During this project students work in groups of
+about ten on the design and implementation of a complete system to
+solve some practical and useful problem. All groups perform the
+same task. This primarily involves software implementation but may
+potentially also involve hardware design and construction where
+this is relevant. Recent examples of projects include: an automated
+on-line supermarket; building webcam-based home and commercial
+security systems; constructing Mars and Lunar rovers controlled
+from an Earth-based web browser interface, etc.
+
+Each group is provided with the same facilities. These include one
+or more PCs dedicated to them and other equipment depending on the
+particular project, for instance a webcam, a Lego robot
+construction kit, hardware prototyping kit, diagnostic equipment
+etc. They also have a small amount of money to spend in any way
+they choose on any extra items they feel might enhance their
+particular design. Project management software is also available to
+them.
+
+A staff member is assigned to each group as a supervisor. The
+supervisor's task is to advise and provide feedback on the progress
+of the group during the project but not to provide technical
+support. Consultants from amongst the academic and support staff
+are made available to advise on aspects of the task such as
+management, specific pieces of software and hardware etc. Groups
+meet with their supervisors at least once a week. They also meet
+amongst themselves more frequently to plan and coordinate their
+activities.
+
+Towards the end of the semester, a day is set aside for groups to
+demonstrate their implemented system and to give a formal
+presentation of it to an audience of the students, supervisors, and
+visitors from industry.
+
+Relevant QAA Computing Curriculum Sections: Computer Based Systems,
+Systems Analysis and Design</syllabus><transferable_skills>Not entered</transferable_skills><reading_list>The Elements of Style, W.Strunk Jr &amp;
+E.B.White
+Lend me Your Ears, Max Atkinson
+The Visual Display of Quentitative Information, Edward Tufte</reading_list><study_abroad>Not entered</study_abroad><study_pattern>Lectures 4
+Tutorials 8
+Timetabled Laboratories 10
+Non-timetabled assessed assignments 178
+Private Study/Other 0
+Total 200</study_pattern><keywords>Not entered</keywords></additional_info><contacts><course_organiser>Mr Vijayanand Nagarajan
+Tel: (0131 6)51 3440
+Email: vijay.nagarajan@ed.ac.uk</course_organiser><course_secretary>Mrs Victoria Swann
+Tel: (0131 6)51 7607
+Email: Vicky.Swann@ed.ac.uk</course_secretary></contacts></course>

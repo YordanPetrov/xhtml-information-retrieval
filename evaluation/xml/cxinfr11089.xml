@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<course xmlns:h="http://www.w3.org/1999/xhtml"><title> Randomness and Computation(INFR11089)</title><outline><school>School of Informatics</school><college>College of Science and Engineering</college><course_type>Standard</course_type><availability>Available to all students</availability><credit_level>SCQF Level 11 (Postgraduate)</credit_level><credits>10</credits><subj_area>Informatics</subj_area><other_subj_area>None</other_subj_area><website>http://www.inf.ed.ac.uk/teaching/courses/rc/</website><gaelic_taught>No</gaelic_taught><c_description>This course is about probabilistic
+methods and their application to computer science. The course
+introduces basic models and techniques and applies these techniques
+to the design of various randomized algorithms, data structures,
+and distributed protocols. Special emphasis will be given on
+applications of these ideas to other areas of computer science
+(e.g. networking, machine learning, etc).</c_description></outline><entry_requirements><prerequisites>It is RECOMMENDED that students have passed
+Algorithms and Data
+Structures (INFR09006)</prerequisites><corequisites/><restrictions/><other_requirements>Basic knowledge of (1) discrete probability and (2)
+algorithms is required. In particular, the students should have a
+good understanding of the following concepts:
+
+(1) probability spaces and events, conditional probability and
+independence, random variables, expectations and moments,
+conditional expectation.
+
+(2) asymptotic notation, basic sorting algorithms (Quick-sort,
+Merge-sort), basic graph algorithms (BFS, DFS, Dijkstra).</other_requirements><additional_costs>None</additional_costs></entry_requirements><vs_info><prerequisites>None</prerequisites><visit_students>No</visit_students></vs_info><delivery_info><delivery_period> 2012/13 Semester2, Available to all students (SV1) </delivery_period><learn_enabled>  No</learn_enabled><quota>  None</quota><activity><Location>Central</Location><Activity>Lecture</Activity><Description/><time><Monday/><Tuesday>14:00 - 15:50</Tuesday><Wednesday/><Thursday/><Friday/></time></activity><first_class>Week 1, Tuesday, 14:10 - 16:00,
+Zone: Central. B1, Forrest Hill</first_class><exam_info><exam><exam_diet>Main Exam Diet S2
+(April/May)</exam_diet><paper_name/><duration>2:00</duration></exam></exam_info></delivery_info><learning_outcomes>1. Apply fundamental tools in discrete probability (e.g.
+concentration inequalities, probabilistic method, random
+walks).
+
+2. Know randomized algorithms and data structures for selected
+combinatorial and graph problems.
+
+3. Be able to analyze error probabilities and expected running time
+of randomized algorithms.
+
+4. Understand the fundamentals of Markov chains and their
+algorithmic applications.
+
+5. Apply Monte Carlo methods such as MCMC.</learning_outcomes><assessment>Written Examination: 70%
+Assessed Assignments: 30%</assessment><special_arrangements>None</special_arrangements><additional_info><academic_description>Not entered</academic_description><syllabus>- Introduction: Las Vegas and Monte Carlo
+algorithms
+(Elementary Examples: checking identities, fingerprinting)
+
+- Moments, Deviations and Tail Inequalities
+(Balls and Bins, Coupon Collecting, stable marriage, routing)
+
+- Randomization in Sequential Computation
+(Data Structures, Graph Algorithms)
+
+* Randomization in Parallel and Distributed Computation
+(algebraic techniques, matching, sorting, independent sets)
+
+* Randomization in Online Computation
+(online model, adversary models, paging, k-server)
+
+- The Probabilistic Method
+(threshold phenomena in random graphs, Lovasz Local Lemma)
+
+- Random Walks and Markov Chains
+(hitting and cover times, Markov chain Monte Carlo)</syllabus><transferable_skills>Not entered</transferable_skills><reading_list>Probability and Computing: Randomized Algorithms
+and Probabilistic Analysis, by Michael Mitzenmacher and Eli Upfal.
+(Required)
+
+Randomized Algorithms, by Rajeev Motwani and Prabhakar Raghavan.
+(Useful)</reading_list><study_abroad>Not entered</study_abroad><study_pattern>Lectures 20
+Tutorials 0
+Timetabled Laboratories 0
+Coursework Assessed for Credit 30
+Other Coursework / Private Study 50
+Total 100</study_pattern><keywords>Not entered</keywords></additional_info><contacts><course_organiser>Dr Iain Murray
+Tel: (0131 6)51 9078
+Email: I.Murray@ed.ac.uk</course_organiser><course_secretary>Miss Kate Weston
+Tel: (0131 6)50 2701
+Email: Kate.Weston@ed.ac.uk</course_secretary></contacts></course>
