@@ -1,6 +1,7 @@
 import time
 import os
 import subprocess
+import shutil
 import urllib2
 import time
 from BeautifulSoup import BeautifulSoup
@@ -13,14 +14,14 @@ class Evaluation():
 		# self.filenames = os.listdir(self.dir)
 
 	def fetch_pages(self):
-		base_url = 'http://www.drps.ed.ac.uk/12-13/dpt/cx_sb_infr.htm'
+		base_url = 'http://www.drps.ed.ac.uk/12-13/dpt/cx_sb_math.htm'
 		base_url2 = 'http://www.drps.ed.ac.uk/12-13/dpt/'
 		r = urllib2.urlopen(base_url).read()
 		soup = BeautifulSoup(r)
 		all_links = soup.findAll('a')
 		links = {}
 		for link in all_links:
-			if "cxinf" in link["href"]: # and link["href"] not in self.ignore:
+			if "cxmath" in link["href"]: # and link["href"] not in self.ignore:
 				links[link["href"]] = base_url2 + link["href"]
 
 		for key, value in links.items():
@@ -36,7 +37,7 @@ class Evaluation():
 			file_out = "xhtml/{0}.xhtml".format(name.split('.')[0])
 			name = path + name
 			out = open(file_out, 'w')
-			subprocess.Popen(["tidy", "-q", "-asxhtml", "--doctype", "omit", "--numeric-entities", "yes", name], stdout=out)
+			subprocess.Popen(["tidy", "-q", "-asxhtml", "--show-warnings", "n", "--doctype", "omit", "--numeric-entities", "yes", name], stdout=out)
 			out.close()
 
 	def extract(self):
@@ -99,6 +100,10 @@ class Evaluation():
 		print "###################################"
 		print "Time taken for ALL: ", end-start
 		print "###################################"
+
+		shutil.rmtree(self.dir+'/xml/*')
+		shutil.rmtree(self.dir+'/xhtml/*')
+		shutil.rmtree(self.dir+'/new-html/*')
 
 if __name__=="__main__":
 	eval = Evaluation()

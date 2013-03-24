@@ -12,7 +12,7 @@ class MemoryMonitor(object):
 
     def usage(self):
         """Return int containing memory used by user's processes."""
-        self.process = subprocess.Popen("ps -u %s -o rss | awk '{sum+=$1} END {print sum}'" % self.username,
+        self.process = subprocess.Popen("ps -p 3161 -o rss | awk '{sum+=$1} END {print sum}'" % self.username,
                                         shell=True,
                                         stdout=subprocess.PIPE,
                                         )
